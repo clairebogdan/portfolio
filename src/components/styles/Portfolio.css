@@ -1,0 +1,93 @@
+.container {
+    text-align: center;
+    font-size: 3rem;
+    padding: 4%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.column {
+    border: 1px solid rgb(227, 244, 255);
+    border-radius: 4px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background: #EFE9E7;
+}
+
+.column-small {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    background: #EFE9E7;
+}
+
+.column:hover {
+    padding: 5px 5px;
+    transition: all 0.3s ease-out;
+    background: #ecf0ff;
+    color: #000;
+    transition: 250ms;
+    visibility: visible;
+}
+
+.column-small:hover {
+    padding: 5px 5px;
+    transition: all 0.3s ease-out;
+    background: #ecf0ff;
+    color: #000;
+    transition: 250ms;
+    visibility: visible;
+}
+
+.row {
+    padding: 5% 5%;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color:#fff;
+}
+
+.name-small {
+    padding: 10px;
+    font-size: 1rem;
+    background-color:#fff;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 4%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .column {
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+        background: #EFE9E7;
+    }
+
+}
