@@ -15,10 +15,20 @@
     float: left;
     width: 50%;
     box-sizing: border-box;
-    height: 30vh;
+    height: 300px;
     justify-content: center;
     align-items: center;
-    background: #EFE9E7;
+    background: #fff;
+}
+
+.column-disabled {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
 }
 
 .column-small {
@@ -28,7 +38,7 @@
     height: 20vh;
     justify-content: center;
     align-items: center;
-    background: #EFE9E7;
+    background: #fff;
 }
 
 .column:hover {
@@ -40,14 +50,6 @@
     visibility: visible;
 }
 
-.column-small:hover {
-    padding: 5px 5px;
-    transition: all 0.3s ease-out;
-    background: #ecf0ff;
-    color: #000;
-    transition: 250ms;
-    visibility: visible;
-}
 
 .row {
     padding: 5% 5%;
@@ -70,7 +72,7 @@
 .heading {
     text-align: center;
     font-size: 3rem;
-    padding: 4%;
+    padding: 5%;
     margin-top: auto;
     display: flex;
     justify-content: center;
@@ -81,13 +83,35 @@
 @media screen and (max-width: 960px) {
 
     .column {
+        border: 1px solid rgb(227, 244, 255);
+        border-radius: 4px;
         float: left;
         width: 100%;
         box-sizing: border-box;
-        height: 30vh;
+        height: 300px;
         justify-content: center;
         align-items: center;
-        background: #EFE9E7;
+        background: #fff;
+    }
+
+    .column-disabled {
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+    }
+
+    .cert {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cert-itil {
+        width: 100px;
+        height: 80px;
     }
 
 }

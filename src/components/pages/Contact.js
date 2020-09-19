@@ -4,10 +4,19 @@ import '../styles/Contact.css';
 import '../styles/Button.css';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import * as emailjs from 'emailjs-com';
+import Clipboard from 'clipboard';
 
+const clip = new Clipboard('.copy');
+clip.on("success", function () {
+    alert("Claire's email was copied to your clipboard!");
+});
+clip.on("error", function () {
+    alert("Could not copy email address :(");
+});
 
 class Contact extends Component {
 
+    
     state = {
         name: '',
         email: '',
@@ -58,8 +67,30 @@ class Contact extends Component {
     render() {
         return (
             <>
-            <h1 className='contact'>CONTACT ME</h1>
-
+            <div className='top'>
+                <h2 className='contact'>CONTACT ME</h2>
+                <div className='grid-container'>
+                    
+                    <div className='grid-item'>
+                        <div className='tooltip'>
+                            <div className="copy" data-clipboard-text='bogdanclaire@gmail.com'>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <span className='tooltiptext'>Copy my email!</span>
+                        </div>
+                    </div>
+                    
+                    <div className='grid-item'>
+                        <div className='tooltip'>
+                            <a className='LI-logo' href="https://www.linkedin.com/in/clairebogdan">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <span className='tooltiptext'>Message me on LinkedIn!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <Form onSubmit={this.handleSubmit.bind(this)}>
 
                 <FormGroup controlId='formBasicName'>
