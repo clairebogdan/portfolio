@@ -27,46 +27,46 @@ function Portfolio() {
             <div className="row">
                 <div className="column">
                     <h2 className='name'>PerfectFit</h2>
-                    <img src={perfectfit} alt='website image' width='100%' height='300'/>
+                    <img src={perfectfit} alt='website image' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Instrumentation Calculator</h2>
-                    <img src={saxophone} alt='saxophone' width='100%' height='300'/>
+                    <img src={saxophone} alt='saxophone' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Bogdan Reeds Ordering</h2>
-                    <img src={reeds} alt='oboe reed and thread' width='100%' height='300'/>
+                    <img src={reeds} alt='oboe reed and thread' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Package Delivery</h2>
-                    <img src={mailboxes} alt='multiple mailboxes' width='100%' height='300'/>
+                    <img src={mailboxes} alt='multiple mailboxes' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Appointment Manager</h2>
-                    <img src={appointments} alt='agenda with appointments' width='100%' height='300'/>
+                    <img src={appointments} alt='agenda with appointments' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Inventory Manager</h2>
-                    <img src={inventory} alt='inventory warehouse' width='100%' height='300'/>
+                    <img src={inventory} alt='inventory warehouse' width='100%' height='100%'/>
                 </div>
                 <div className="column">
                     <h2 className='name'>Student Roster</h2>
-                    <img src={classroom} alt='classroom with students and teacher' width='100%' height='300'/>
+                    <img src={classroom} alt='classroom with students and teacher' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Career Chatbot</h2>
-                    <img src={chatbot} alt='image of chatbot' width='100%' height='300'/>
+                    <img src={chatbot} alt='image of chatbot' width='100%' height='100%'/>
                 </div>
 
                 <div className="column">
                     <h2 className='name'>Hurricane Cleanup</h2>
-                    <img src={hurricanerobot} alt='image of robot simulation' width='100%' height='300'/>
+                    <img src={hurricanerobot} alt='image of robot simulation' width='100%' height='100%'/>
                 </div>
 
                 <div className="column-disabled">
@@ -80,18 +80,18 @@ function Portfolio() {
 
         <div className='projects'>
             <h2 className='heading'>CERTIFICATIONS</h2>
-            <div className="row">
+            <div className="cert-grid">
                 <div className="column-small">
-                    <img className="cert" src={oracle} alt='Oracle Certified Associate' width='160' height='150'/>
+                    <img className="cert" src={oracle} alt='Oracle Certified Associate' width='120' height='120'/>
                 </div>
                 <div className="column-small">
-                    <img className="cert-itil" src={itil} alt='ITIL Certification' width='250' height='150'/>
+                    <img className="cert-itil" src={itil} alt='ITIL Certification' width='200' height='100'/>
                 </div>
                 <div className="column-small">
-                    <img className="cert" src={project} alt='CompTIA Project+ Certification' width='160' height='150'/>
+                    <img className="cert" src={project} alt='CompTIA Project+ Certification' width='120' height='120'/>
                 </div>
                 <div className="column-small">
-                    <img className="cert" src={ciw} alt='CIW Site Developement Associate Certification' width='160' height='150'/>
+                    <img className="cert" src={ciw} alt='CIW Site Developement Associate Certification' width='120' height='120'/>
                 </div>
             </div>
         </div>

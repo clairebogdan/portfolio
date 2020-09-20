@@ -1,11 +1,6 @@
 .container {
     text-align: center;
     font-size: 3rem;
-    padding: 4%;
-    margin-top: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 200px;
 }
 
@@ -31,12 +26,23 @@
     background: #fff;
 }
 
+.cert-grid {
+    display: grid;
+    grid-template-columns: 120px 200px 120px 120px;
+    grid-column-gap: 10px;
+    margin: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .column-small {
     float: left;
     width: 25%;
     box-sizing: border-box;
     height: 20vh;
     justify-content: center;
+    text-align: center;
     align-items: center;
     background: #fff;
 }
@@ -50,9 +56,8 @@
     visibility: visible;
 }
 
-
 .row {
-    padding: 5% 5%;
+    padding: 8% 8%;
     align-items: center;
     text-align: center;
 }
@@ -80,7 +85,7 @@
     height: 200px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 750px) {
 
     .column {
         border: 1px solid rgb(227, 244, 255);
@@ -104,14 +109,24 @@
         background: #fff;
     }
 
+    .cert-grid {
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        grid-column-gap: 10px;
+        margin: 1%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
     .cert {
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
     }
 
     .cert-itil {
         width: 100px;
-        height: 80px;
+        height: 70px;
     }
 
 }
