@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
-import '../styles/About.css'
+import '../styles/About.css';
+import { Link } from 'react-router-dom';
 
 export default function About() {
     return (
@@ -16,10 +17,10 @@ export default function About() {
                 I am a recent computer science graduate from Western Governors University (September 2020).
                 This is just one aspect of my career change journey.
                 <br/><br/>
-                In June 2019, I decided to change careers. I originally went to the University of South Carolina
+                In June 2019, I decided to change careers. I originally went to the University of South Carolina (UofSC)
                 to pursue a Bachelor's in Music Education, with a Performance Certificate in Oboe. While at UofSC, 
                 I was the principal oboist of the Wind Ensemble as well as the Drum Major for the marching band
-                (the Carolina Band). Upon graduation, I went on to be a public middle school band director for
+                (the Carolina Band). Upon graduation in May 2017, I went on to be a public middle school band director for
                 two years-- one year in Parkland, Florida, and another in Summerville, South Carolina.
                 <br/><br/>
                 During my first year teaching, I expereinced a school shooting. This was the main catalyst for 
@@ -33,8 +34,17 @@ export default function About() {
         </div>
 
         <div className='button-bar'>
-            <button className='btn-link'>See Portfolio <i class="fas fa-chevron-right"></i></button>
-            <button className='btn-link'>Contact Me <i class="fas fa-chevron-right"></i></button>
+            <Link to='/portfolio'>
+                <button className='btn-link'>
+                    See Portfolio <i class="fas fa-chevron-right"></i>
+                </button>
+            </Link>
+            
+            <Link to='/contact'>
+                <button className='btn-link'>
+                    Contact Me <i class="fas fa-chevron-right"></i>
+                </button>
+            </Link>
         </div>
         </>
     );

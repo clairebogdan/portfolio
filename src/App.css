@@ -14,3 +14,7 @@
   background-color:#d3d4ff;
   color: #000;
 }
+
+body {
+  overflow-x: hidden;
+}

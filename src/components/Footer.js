@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
         <div className='footer'>
-           <h3 className='footerText'>Claire Bogdan 2020 <i class="far fa-copyright"></i></h3>
+           <h4 className='footerText'>Claire Bogdan 2020 <i class="far fa-copyright"></i></h4>
         </div>
         </>
     );

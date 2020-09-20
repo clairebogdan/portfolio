@@ -1,13 +1,24 @@
+.intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bio {
+    margin: 3%;
+}
+
 .btn-link {
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
     border: none;
-    font-size: 14px;
+    font-size: 20px;
     color: #fff;
     cursor: pointer;
     background-color: #8185fd;
     text-decoration: none;
+    text-align: center;
 }
 
 .btn-link:hover {
@@ -17,4 +28,14 @@
     color: #111344;
     transition: 250ms;
     border: black;
+}
+
+.button-bar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
 }
