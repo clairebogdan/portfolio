@@ -100,3 +100,33 @@ textarea#message {
 	line-height:1.5;
 	padding:8px 8px 8px;
 }
+
+@media screen and (max-width: 960px) {
+    
+    Form {
+        border-radius: 2px;
+        background-color: #EFE9E7;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        font-size: 1rem;
+    }
+    
+    Input {
+        align-content: center;
+        justify-content: center;
+        font-size: 1rem;
+        padding:8px 8px 8px;
+    }
+    
+    textarea#message {
+        width:100%;
+        height: 15rem;
+        max-width:100%;
+        font-size: 1rem;
+        line-height: 1;
+        padding:8px 8px 8px;
+    }
+
+}
