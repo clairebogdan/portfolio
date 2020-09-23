@@ -4,6 +4,29 @@
     height: 200px;
 }
 
+.mini-nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 7%;
+    padding-top: 5%;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
 .column {
     border: 1px solid rgb(227, 244, 255);
     border-radius: 4px;
@@ -66,6 +89,7 @@
     padding: 10px;
     font-size: 1.5rem;
     background-color:#fff;
+    color: black;
 }
 
 .name-small {
@@ -74,15 +98,24 @@
     background-color:#fff;
 }
 
-.heading {
-    text-align: center;
-    font-size: 3rem;
-    padding: 5%;
-    margin-top: auto;
-    display: flex;
+.project-title {
     justify-content: center;
     align-items: center;
-    height: 200px;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5%;
+    display: flex;
+}
+
+.cert-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20%;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
 }
 
 @media screen and (max-width: 750px) {
