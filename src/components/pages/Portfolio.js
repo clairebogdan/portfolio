@@ -26,21 +26,12 @@ function Portfolio() {
 
             <div className='project-title'><h2>PROJECTS</h2></div>
             
-            <nav className='mini-nav'>
-                <button className='nav-btn is-active' active-color='orange'>All</button>
-                <button className='nav-btn' active-color='green'>Java</button>
-                <button className='nav-btn' active-color='blue'>Python</button>
-                <button className='nav-btn' active-color='red'>Other</button>
-                <span className='nav-indicator'></span>            
-            </nav>
-
-            
             <div className="row">
                 
             <Link to='/perfectfit'>
                 <div className="column">
                         <h2 className='name'>PerfectFit</h2>
-                        <img src={perfectfit} alt='website image' width='100%' height='100%'/>
+                        <img src={perfectfit} alt='website' width='100%' height='100%'/>
                 </div>
             </Link>
 
@@ -97,14 +88,14 @@ function Portfolio() {
             <Link to='/chatbot'>
                 <div className="column">
                     <h2 className='name'>Career Chatbot</h2>
-                    <img src={chatbot} alt='image of chatbot' width='100%' height='100%'/>
+                    <img src={chatbot} alt='chatbot' width='100%' height='100%'/>
                 </div>
             </Link>
 
             <Link to='/hurricane'>
                 <div className="column">
                     <h2 className='name'>Hurricane Cleanup</h2>
-                    <img src={hurricanerobot} alt='image of robot simulation' width='100%' height='100%'/>
+                    <img src={hurricanerobot} alt='robot simulation' width='100%' height='100%'/>
                 </div>
             </Link>
         </div>
@@ -112,20 +103,29 @@ function Portfolio() {
         
 
         <div className='certifications'>
-            <div className='cert-box'><h4 className='cert-title'>CERTIFICATIONS</h4></div>
+
+            <div className='cert-box'>
+                <h4 className='cert-title'>CERTIFICATIONS</h4>
+            </div>
+
             <div className="cert-grid">
+
                 <div className="column-small">
                     <img className="cert" src={oracle} alt='Oracle Certified Associate' width='120' height='120'/>
                 </div>
+
                 <div className="column-small">
                     <img className="cert-itil" src={itil} alt='ITIL Certification' width='200' height='100'/>
                 </div>
+
                 <div className="column-small">
                     <img className="cert" src={project} alt='CompTIA Project+ Certification' width='120' height='120'/>
                 </div>
+
                 <div className="column-small">
                     <img className="cert" src={ciw} alt='CIW Site Developement Associate Certification' width='120' height='120'/>
                 </div>
+                
             </div>
         </div>
 

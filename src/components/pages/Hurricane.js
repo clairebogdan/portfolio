@@ -1,24 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/ProjectItems.css'
+import ProjectNav from '../navbar/ProjectNav';
 
 function Hurricane() {
 
     return (
         <>
+        <body>
         <div className='project-top'>
-            <h1>Hurricane Cleanup Robot - CoppeliaSim Robot Simulation</h1>
-            <h2>CoppeliaSim</h2>
-            <p>Description of project</p>
+            <h1>Hurricane Cleanup Robot Simulation</h1>
+            <h2>CoppeliaSim Simulation</h2>
         </div>
 
-        <div className='link-grid'>
-            <a className='btn' href="https://github.com/clairebogdan/C951-Task-2">GitHub Repo</a>
-            <a className='btn' href="https://drive.google.com/file/d/1DISUXFLovLnZxd77woRtjcGHCS6DLDps/view?usp=sharing">Documentation</a>
-            <Link to='/portfolio' className='go-back'>
-                Go back to Portfolio
-            </Link>
+        <div className='tools-links'>
+            
+            <div className='tools'>
+                <h1><center>Tools:</center></h1>
+                <span className='tool-framework'>CoppeliaSim</span>
+            </div>
+
+            <div className='link-grid'>
+                <h1><center>Links:</center></h1>
+                <a className='btn-sm' href="https://github.com/clairebogdan/C951-Task-2">GitHub Repo</a>
+                <a className='btn-sm' href="https://drive.google.com/file/d/1DISUXFLovLnZxd77woRtjcGHCS6DLDps/view?usp=sharing">Documentation</a>
+            </div>
         </div>
+
+        <div className='description-box'>
+            <p>this is where the description will go</p>
+        </div>
+
+        <ProjectNav />
+        </body>
         </>
         );
     }

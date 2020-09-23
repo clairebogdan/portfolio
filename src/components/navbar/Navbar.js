@@ -1,6 +1,5 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import '../styles/Navbar.css'
-import { ContactButton } from '../Button'
 import { Link } from 'react-router-dom'
 
 
