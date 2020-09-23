@@ -8,7 +8,7 @@ function InstrumentCalc() {
         <>
         <div className='project-top'>
             <h1>Beginning Band Instrumentation Calculator - Web Application</h1>
-            <h2>Python, Flask, Heroku</h2>
+            <h2>Python, Flask, HTML, Heroku</h2>
             <p>Description of project</p>
         </div>
 

@@ -14,7 +14,7 @@ function PackageDelivery() {
 
         <div className='link-grid'>
             <a className='btn' href="https://github.com/clairebogdan/C950_take2">GitHub Repo</a>
-            <a className='btn' href="">Documentation</a>
+            <a className='btn' href="https://drive.google.com/file/d/1r3MuCtFXhWEFoWj9-9KH3P5A_7Bu8_Ql/view?usp=sharing">Documentation</a>
             <Link to='/portfolio' className='go-back'>
                 Go back to Portfolio
             </Link>

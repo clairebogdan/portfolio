@@ -13,9 +13,8 @@ function Chatbot() {
         </div>
 
         <div className='link-grid'>
-            <a className='btn' href="https://perfectfit-wgu.herokuapp.com">Chatbot Link</a>
-            <a className='btn' href="https://github.com/clairebogdan/perfectfit">GitHub Repo</a>
-            <a className='btn' href="https://drive.google.com/file/d/1e_SYjYdKVa6cWnmpoFJREmEoC1Jhodhj/view?usp=sharing">Documentation</a>
+            <a className='btn' href="https://github.com/clairebogdan/C951_Task1">GitHub Repo</a>
+            <a className='btn' href="https://drive.google.com/file/d/1tVEp0guZ-6Qn2QsW-SDrWwp7dcTGTq-r/view?usp=sharing">Documentation</a>
             <Link to='/portfolio' className='go-back'>
                 Go back to Portfolio
             </Link>

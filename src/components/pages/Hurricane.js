@@ -13,8 +13,8 @@ function Hurricane() {
         </div>
 
         <div className='link-grid'>
-            <a className='btn' href="https://github.com/clairebogdan/perfectfit">GitHub Repo</a>
-            <a className='btn' href="https://drive.google.com/file/d/1e_SYjYdKVa6cWnmpoFJREmEoC1Jhodhj/view?usp=sharing">Documentation</a>
+            <a className='btn' href="https://github.com/clairebogdan/C951-Task-2">GitHub Repo</a>
+            <a className='btn' href="https://drive.google.com/file/d/1DISUXFLovLnZxd77woRtjcGHCS6DLDps/view?usp=sharing">Documentation</a>
             <Link to='/portfolio' className='go-back'>
                 Go back to Portfolio
             </Link>

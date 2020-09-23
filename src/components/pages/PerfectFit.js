@@ -8,7 +8,7 @@ function PerfectFit() {
         <>
         <div className='project-top'>
             <h1>PerfectFit - Website and Web Application</h1>
-            <h2>Python, Flask, Heroku, SQLite3</h2>
+            <h2>Python, Flask, HTML, JavaScript, Heroku, SQLite3</h2>
             <p>Description of project</p>
         </div>
 
