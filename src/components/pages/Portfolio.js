@@ -5,12 +5,12 @@ import '../styles/Button.css';
 import saxophone from '../../assets/saxophone.jpg';
 import reeds from '../../assets/reeds.jpg';
 import numbers from '../../assets/numbers.jpg';
-import appointments from '../../assets/appointments.jpg';
-import mailboxes from '../../assets/mailboxes.jpg';
-import inventory from '../../assets/inventory.jpg';
-import classroom from '../../assets/classroom.jpg';
+import appointments from '../../assets/appointments.png';
+import delivery from '../../assets/delivery.png';
+import inventory from '../../assets/inventory.png';
+import roster from '../../assets/roster.png';
 import chatbot from '../../assets/chatbot.png';
-import hurricanerobot from '../../assets/hurricanerobot.png';
+import hurricane from '../../assets/hurricane.png';
 import perfectfit from '../../assets/perfectfit.png';
 import itil from '../../assets/itil.png';
 import oracle from '../../assets/oracle.jpg';
@@ -53,7 +53,7 @@ function Portfolio() {
             <Link to='/packagedelivery'>
                 <div className="column">
                     <h2 className='name'>Package Delivery</h2>
-                    <img src={mailboxes} alt='multiple mailboxes' width='100%' height='100%'/>
+                    <img src={delivery} alt='multiple mailboxes' width='100%' height='100%'/>
                 </div>
             </Link>
 
@@ -81,7 +81,7 @@ function Portfolio() {
             <Link to='/roster'>
                 <div className="column">
                     <h2 className='name'>Student Roster</h2>
-                    <img src={classroom} alt='classroom with students and teacher' width='100%' height='100%'/>
+                    <img src={roster} alt='classroom with students and teacher' width='100%' height='100%'/>
                 </div>
             </Link>
 
@@ -95,7 +95,7 @@ function Portfolio() {
             <Link to='/hurricane'>
                 <div className="column">
                     <h2 className='name'>Hurricane Cleanup</h2>
-                    <img src={hurricanerobot} alt='robot simulation' width='100%' height='100%'/>
+                    <img src={hurricane} alt='robot simulation' width='100%' height='100%'/>
                 </div>
             </Link>
         </div>
