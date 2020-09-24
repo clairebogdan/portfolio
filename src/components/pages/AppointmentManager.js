@@ -30,6 +30,8 @@ function AppointmentManager() {
                     <span className='tool-language'>HTML</span>
                     <span className='tool-framework'>JavaFX</span>
                     <span className='tool-database'>MySQL</span>
+                    <span className='tool-ide'>NetBeans</span>
+                    <span className='tool-ide'>SceneBuilder</span>
                 </div>
 
                 <div className='link-grid'>

@@ -27,6 +27,7 @@ function Chatbot() {
             <div className='tools'>
                 <h1><center>Tools:</center></h1>
                 <span className='tool-language'>AIML</span>
+                <span className='tool-ide'>Pandorabots</span>
             </div>
 
             <div className='link-grid'>

@@ -50,6 +50,7 @@ function InstrumentCalc() {
                 <span className='tool-framework'>Flask</span>
                 <span className='tool-framework'>Bootstrap</span>
                 <span className='tool-deploy'>Heroku</span>
+                <span className='tool-ide'>PyCharm</span>
             </div>
 
 

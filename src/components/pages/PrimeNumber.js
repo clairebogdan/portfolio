@@ -27,6 +27,7 @@ function PrimeNumber() {
                 <div className='tools'>
                     <h1><center>Tools:</center></h1>
                     <span className='tool-language'>Java</span>
+                    <span className='tool-ide'>NetBeans</span>
                 </div>
 
                 <div className='link-grid'>

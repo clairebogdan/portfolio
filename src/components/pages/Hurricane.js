@@ -26,7 +26,7 @@ function Hurricane() {
             
             <div className='tools'>
                 <h1><center>Tools:</center></h1>
-                <span className='tool-framework'>CoppeliaSim</span>
+                <span className='tool-ide'>CoppeliaSim</span>
             </div>
 
             <div className='link-grid'>
