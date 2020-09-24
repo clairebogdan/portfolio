@@ -13,6 +13,15 @@ function PrimeNumber() {
                 <h2>CLI Application</h2>
             </div>
 
+            <div className='project-img'>
+                image goes here
+            </div>
+
+            <div className='description-box'>
+                <h1><center>Description:</center></h1>
+                <p>this is where the description will go</p>
+            </div>
+
             <div className='tools-links'>
                 
                 <div className='tools'>
@@ -25,11 +34,6 @@ function PrimeNumber() {
                     <a className='btn' href="https://github.com/clairebogdan/PrimeNumberGenerator">GitHub Repo</a>
                 </div>
             </div>
-
-            <div className='description-box'>
-                <p>this is where the description will go</p>
-            </div>
-
 
             <ProjectNav />
             

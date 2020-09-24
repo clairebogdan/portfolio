@@ -13,6 +13,15 @@ function InstrumentCalc() {
             <h2>Web Application</h2>
         </div>
 
+        <div className='project-img'>
+            image goes here
+        </div>
+
+        <div className='description-box'>
+            <h1><center>Description:</center></h1>
+            <p>this is where the description will go</p>
+        </div>
+
 
         <div className='tools-links'>
             
@@ -33,11 +42,8 @@ function InstrumentCalc() {
             </div>
         </div>
 
-        <div className='description-box'>
-            <p>this is where the description will go</p>
-        </div>
-
         <ProjectNav />
+
         </body>
         </>
         );

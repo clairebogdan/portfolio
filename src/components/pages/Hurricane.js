@@ -13,6 +13,15 @@ function Hurricane() {
             <h2>CoppeliaSim Simulation</h2>
         </div>
 
+        <div className='project-img'>
+            image goes here
+        </div>
+
+        <div className='description-box'>
+            <h1><center>Description:</center></h1>
+            <p>this is where the description will go</p>
+        </div>
+
         <div className='tools-links'>
             
             <div className='tools'>
@@ -27,11 +36,8 @@ function Hurricane() {
             </div>
         </div>
 
-        <div className='description-box'>
-            <p>this is where the description will go</p>
-        </div>
-
         <ProjectNav />
+
         </body>
         </>
         );

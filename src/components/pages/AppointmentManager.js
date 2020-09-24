@@ -13,6 +13,15 @@ function AppointmentManager() {
                 <h2>GUI Application</h2>
             </div>
 
+            <div className='project-img'>
+                image goes here
+            </div>
+
+            <div className='description-box'>
+                <h1><center>Description:</center></h1>
+                <p>this is where the description will go</p>
+            </div>
+
             <div className='tools-links'>
                 
                 <div className='tools'>
@@ -28,10 +37,6 @@ function AppointmentManager() {
                     <a className='btn-sm' href="https://github.com/clairebogdan/perfectfit">GitHub Repo</a>
                     <a className='btn-sm' href="https://drive.google.com/file/d/1gQlAtX8Cn2mVTpVP_KY5dF_aOzgfEdoX/view?usp=sharing">Documentation</a>
                 </div>
-            </div>
-
-            <div className='description-box'>
-                <p>this is where the description will go</p>
             </div>
 
             <ProjectNav/>
