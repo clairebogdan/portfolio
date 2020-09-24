@@ -1,0 +1,42 @@
+.project-nav {
+    background: #111344;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-gap: 5px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.project-nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.project-nav-link:hover {
+    background-color: #919191;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+
+    .project-nav {
+        background: #111344;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 5px;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+    }
+}

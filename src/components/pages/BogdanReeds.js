@@ -31,12 +31,6 @@ function BogdanReeds() {
         </div>
 
         <ProjectNav />
-        
-        <div className='container2'>
-            <Link to='/portfolio' className='go-back'>
-                <i class="fas fa-chevron-circle-left"/> Back to Portfolio
-            </Link>
-        </div>
 
         </body>
 
