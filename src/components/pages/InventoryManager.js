@@ -1,7 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
+import IMmain from '../../assets/project_pics/inventory/IMmain.png'
+import IMaddPart from '../../assets/project_pics/inventory/IMaddPart.png'
+import IMmodPart from '../../assets/project_pics/inventory/IMmodPart.png'
+import IMaddProd from '../../assets/project_pics/inventory/IMaddProd.png'
+import IMmodProd from '../../assets/project_pics/inventory/IMmodProd.png'
 
 function InventoryManager() {
 
@@ -14,7 +18,27 @@ function InventoryManager() {
         </div>
 
         <div className='project-img'>
-            image goes here
+            <img src={IMmain} width='100%' height='100%'/>
+        </div>
+
+        <div className='img-grid'>
+            <div className='img-grid-item'>
+                <img src={IMaddPart} width='100%' height='100%'/>
+            </div>
+
+            <div className='img-grid-item'>
+                <img src={IMmodPart} width='100%' height='100%'/>
+            </div>
+        </div>
+
+        <div className='img-grid'>
+            <div className='img-grid-item'>
+                <img src={IMaddProd} width='100%' height='100%'/>
+            </div>
+
+            <div className='img-grid-item'>
+                <img src={IMmodProd} width='100%' height='100%'/>
+            </div>
         </div>
 
         <div className='description-box'>

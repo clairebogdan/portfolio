@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/ProjectItems.css'
 import ProjectNav from '../navbar/ProjectNav';
+import chatbotVideo from '../../assets/project_pics/chatbot/ChatbotVideo.mp4'
 
 function Chatbot() {
 
@@ -14,7 +14,10 @@ function Chatbot() {
         </div>
 
         <div className='project-img'>
-            image goes here
+            <h3>Press the play button</h3>
+            <video width='40%' height='40%' controls>
+                <source src={chatbotVideo} type="video/mp4"/>
+            </video>
         </div>
 
         <div className='description-box'>

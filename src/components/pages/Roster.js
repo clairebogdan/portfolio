@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/ProjectItems.css'
 import ProjectNav from '../navbar/ProjectNav'
+import students from '../../assets/students.jpg'
+
 
 function Roster() {
 
@@ -14,7 +16,7 @@ function Roster() {
         </div>
 
         <div className='project-img'>
-            image goes here
+            <img src={students} width='100%' height='100%' />
         </div>
 
         <div className='description-box'>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
+import num from '../../assets/primenum.jpg'
 
 function PrimeNumber() {
 
@@ -14,7 +14,7 @@ function PrimeNumber() {
             </div>
 
             <div className='project-img'>
-                image goes here
+                <img src={num} width='100%' height='100%' />
             </div>
 
             <div className='description-box'>
