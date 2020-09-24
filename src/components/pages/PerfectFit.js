@@ -1,7 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
+import PFmain from '../../assets/project_pics/perfectfit/PFmain.jpeg'
+import PFtypes from '../../assets/project_pics/perfectfit/PFtypes.png'
+import PFsignup from '../../assets/project_pics/perfectfit/PFsignup.png'
+import PFlogin from '../../assets/project_pics/perfectfit/PFlogin.png'
+import PFquiz from '../../assets/project_pics/perfectfit/PFquiz.png'
+import PFresults from '../../assets/project_pics/perfectfit/PFresults.png'
+import PFaward from '../../assets/project_pics/perfectfit/PFaward.png'
+
 
 function PerfectFit() {
 
@@ -14,12 +21,63 @@ function PerfectFit() {
         </div>
 
         <div className='project-img'>
-            image goes here
+            <img src={PFmain} width='100%' height='100%'/>
+        </div>
+
+        <div className='project-img'>
+            <img src={PFtypes} width='100%' height='100%'/>
+        </div>
+
+        <div className='img-grid'>
+            <div className='img-grid-item'>
+                <img src={PFsignup} width='100%' height='100%'/>
+            </div>
+
+            <div className='img-grid-item'>
+                <img src={PFlogin} width='100%' height='100%'/>
+            </div>
+        </div>
+
+        <div className='img-grid'>
+            <div className='img-grid-item'>
+                <img src={PFquiz} width='100%' height='100%'/>
+            </div>
+
+            <div className='img-grid-item'>
+                <img src={PFresults} width='100%' height='100%'/>
+            </div>
         </div>
 
         <div className='description-box'>
             <h1><center>Description:</center></h1>
-            <p>this is where the description will go</p>
+            <p>PerfectFit is a fictional company that seeks to help people
+                find jobs that are great matches for them based on their
+                personality.
+            </p>
+        </div>
+
+        <div className='award'>
+            <div className='img-grid-item'>
+                <img src={PFaward} width='80%' height='80%'/>
+            </div>
+
+            <div className='img-grid-item'>
+                <p>This project received the <strong>Capstone
+                    Certificate of Excellence</strong> from Western
+                    Governors University. The project was nominated by 
+                    a WGU Evaluation faculty member for special recognition 
+                    due to the exceptional nature of the project.
+                    The evaluator stated: <i>"The Capstone analyzes a functioning 
+                    Python Flask web application that allows the user to explore 
+                    Myers-Briggs personality traits and potential careers. Users 
+                    can take a personality test of their own and are provided with 
+                    matching job titles from a trained Logistic Regression model. 
+                    The work is well organized, mechanically sound, effectively 
+                    details the phases of the development and the features of the 
+                    data product, and demonstrates competencies supporting all 
+                    program outcomes."</i>
+                </p>
+            </div>
         </div>
 
         <div className='tools-links'>
