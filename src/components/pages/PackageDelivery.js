@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
 import packages from '../../assets/project_pics/package_delivery/packages.jpg'
+import packageDeliveryVideo from '../../assets/project_pics/package_delivery/packageDeliveryVideo.mp4'
 
 function PackageDelivery() {
 
@@ -17,6 +17,13 @@ function PackageDelivery() {
 
         <div className='project-img'>
             <img src={packages} width='80%' height='80%' />
+        </div>
+
+        <div className='project-img'>
+            <h3>Press the play button</h3>
+            <video width='80%' height='80%' controls>
+                <source src={packageDeliveryVideo} type="video/mp4"/>
+            </video>
         </div>
 
         <div className='description-box'>

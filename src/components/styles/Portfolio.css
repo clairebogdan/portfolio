@@ -17,6 +17,7 @@
     align-items: center;
     background: #fff;
     overflow-y: hidden;
+    max-width: 400px;
 }
 
 .cert-grid {
@@ -48,8 +49,17 @@
 }
 
 .row {
+    max-width: 1200px;
+    width: 100%;
     padding: 8% 8%;
     align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project-grid {
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -95,6 +105,11 @@
 
 @media screen and (max-width: 750px) {
 
+    .row {
+        width: 100%;
+        max-width: 750px;
+
+    }
     .column {
         border: 1px solid rgb(227, 244, 255);
         border-radius: 4px;
@@ -105,6 +120,8 @@
         justify-content: center;
         align-items: center;
         background: #fff;
+        margin: 0 auto;
+        max-width: 750px;
     }
 
     .cert-grid {
@@ -125,6 +142,14 @@
     .cert-itil {
         width: 100px;
         height: 70px;
+    }
+
+    .cert-title {
+        font-size: 40px;
+    }
+
+    .project-title {
+        font-size: 2rem;
     }
 
 }

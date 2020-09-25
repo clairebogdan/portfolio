@@ -23,83 +23,84 @@ function Portfolio() {
 
     return (
         <>
-
             <div className='project-title'><h2>PROJECTS</h2></div>
             
-            <div className="row">
+            <div className='project-grid'>
                 
-            <Link to='/perfectfit'>
-                <div className="column">
-                        <h2 className='name'>PerfectFit</h2>
-                        <img src={perfectfit} alt='website' width='100%' height='100%'/>
-                </div>
-            </Link>
+                <div className="row">
+                    
+                <Link to='/perfectfit'>
+                    <div className="column">
+                            <h2 className='name'>PerfectFit</h2>
+                            <img src={perfectfit} alt='website' width='100%' height='100%'/>
+                    </div>
+                </Link>
+     
+                <Link to='/instrumentcalc'>
+                    <div className="column">
+                        <h2 className='name'>Instrumentation Calculator</h2>
+                        <img src={saxophone} alt='saxophone' width='100%' height='100%'/>
+                    </div>
+                </Link>
 
-                
-            <Link to='/instrumentcalc'>
+                <Link to='/bogdanreeds'>
                 <div className="column">
-                    <h2 className='name'>Instrumentation Calculator</h2>
-                    <img src={saxophone} alt='saxophone' width='100%' height='100%'/>
+                    <h2 className='name'>Bogdan Reeds Ordering</h2>
+                    <img src={reeds} alt='oboe reed and thread' width='100%' height='100%'/>
                 </div>
-            </Link>
+                </Link>
 
-            <Link to='/bogdanreeds'>
-            <div className="column">
-                <h2 className='name'>Bogdan Reeds Ordering</h2>
-                <img src={reeds} alt='oboe reed and thread' width='100%' height='100%'/>
+                <Link to='/packagedelivery'>
+                    <div className="column">
+                        <h2 className='name'>Package Delivery</h2>
+                        <img src={delivery} alt='multiple mailboxes' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/appointmentmanager'>
+                    <div className="column">
+                        <h2 className='name'>Appointment Manager</h2>
+                        <img src={appointments} alt='agenda with appointments' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/inventorymanager'>
+                    <div className="column">
+                        <h2 className='name'>Inventory Manager</h2>
+                        <img src={inventory} alt='inventory warehouse' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/primenumber'>
+                    <div className="column">
+                        <h2 className='name'>Prime Number Generator</h2>
+                        <img src={numbers} alt='prime numbers' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/roster'>
+                    <div className="column">
+                        <h2 className='name'>Student Roster</h2>
+                        <img src={roster} alt='classroom with students and teacher' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/chatbot'>
+                    <div className="column">
+                        <h2 className='name'>Career Chatbot</h2>
+                        <img src={chatbot} alt='chatbot' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/hurricane'>
+                    <div className="column">
+                        <h2 className='name'>Hurricane Cleanup</h2>
+                        <img src={hurricane} alt='robot simulation' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
             </div>
-            </Link>
-
-            <Link to='/packagedelivery'>
-                <div className="column">
-                    <h2 className='name'>Package Delivery</h2>
-                    <img src={delivery} alt='multiple mailboxes' width='100%' height='100%'/>
-                </div>
-            </Link>
-
-            <Link to='/appointmentmanager'>
-                <div className="column">
-                    <h2 className='name'>Appointment Manager</h2>
-                    <img src={appointments} alt='agenda with appointments' width='100%' height='100%'/>
-                </div>
-            </Link>
-
-            <Link to='/inventorymanager'>
-                <div className="column">
-                    <h2 className='name'>Inventory Manager</h2>
-                    <img src={inventory} alt='inventory warehouse' width='100%' height='100%'/>
-                </div>
-            </Link>
-
-            <Link to='/primenumber'>
-                <div className="column">
-                    <h2 className='name'>Prime Number Generator</h2>
-                    <img src={numbers} alt='prime numbers' width='100%' height='100%'/>
-                </div>
-            </Link>
-
-            <Link to='/roster'>
-                <div className="column">
-                    <h2 className='name'>Student Roster</h2>
-                    <img src={roster} alt='classroom with students and teacher' width='100%' height='100%'/>
-                </div>
-            </Link>
-
-            <Link to='/chatbot'>
-                <div className="column">
-                    <h2 className='name'>Career Chatbot</h2>
-                    <img src={chatbot} alt='chatbot' width='100%' height='100%'/>
-                </div>
-            </Link>
-
-            <Link to='/hurricane'>
-                <div className="column">
-                    <h2 className='name'>Hurricane Cleanup</h2>
-                    <img src={hurricane} alt='robot simulation' width='100%' height='100%'/>
-                </div>
-            </Link>
         </div>
-
         
 
         <div className='certifications'>

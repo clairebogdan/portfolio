@@ -132,4 +132,19 @@
 
 body {
     overflow-x: hidden;
-  }
+}
+
+@media screen and (max-width: 1050px) {
+    .award {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 5%;
+        font-size: 19px;
+    }
+
+}

@@ -15,7 +15,7 @@ function AppointmentManager() {
 
             <div className='project-img'>
                 <h3>Press the play button</h3>
-                <video width='60%' height='60%' controls>
+                <video width='80%' height='80%' controls>
                     <source src={appointmentVideo} type="video/mp4"/>
                 </video>
             </div>

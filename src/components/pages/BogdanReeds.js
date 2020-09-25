@@ -20,7 +20,7 @@ function BogdanReeds() {
 
         <div className='project-img'>
             <h3>Press the play button</h3>
-            <video width='50%' height='50%' controls>
+            <video width='70%' height='70%' controls>
                 <source src={bogdanReedsVideo} type="video/mp4"/>
             </video>
         </div>
