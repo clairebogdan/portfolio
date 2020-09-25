@@ -1,13 +1,9 @@
 import React from 'react';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
-import PFmain from '../../assets/project_pics/perfectfit/PFmain.jpeg'
-import PFtypes from '../../assets/project_pics/perfectfit/PFtypes.png'
-import PFsignup from '../../assets/project_pics/perfectfit/PFsignup.png'
-import PFlogin from '../../assets/project_pics/perfectfit/PFlogin.png'
-import PFquiz from '../../assets/project_pics/perfectfit/PFquiz.png'
-import PFresults from '../../assets/project_pics/perfectfit/PFresults.png'
+import perfectFitVideo from '../../assets/project_pics/perfectfit/perfectFitVideo.mp4'
 import PFaward from '../../assets/project_pics/perfectfit/PFaward.png'
+import perfectFitImg from '../../assets/project_pics/perfectfit/perfectFitImg.png'
 
 
 function PerfectFit() {
@@ -21,31 +17,14 @@ function PerfectFit() {
         </div>
 
         <div className='project-img'>
-            <img src={PFmain} width='100%' height='100%'/>
+            <img src={perfectFitImg} width='40%' height='40%'/>
         </div>
-
+        
         <div className='project-img'>
-            <img src={PFtypes} width='100%' height='100%'/>
-        </div>
-
-        <div className='img-grid'>
-            <div className='img-grid-item'>
-                <img src={PFsignup} width='100%' height='100%'/>
-            </div>
-
-            <div className='img-grid-item'>
-                <img src={PFlogin} width='100%' height='100%'/>
-            </div>
-        </div>
-
-        <div className='img-grid'>
-            <div className='img-grid-item'>
-                <img src={PFquiz} width='100%' height='100%'/>
-            </div>
-
-            <div className='img-grid-item'>
-                <img src={PFresults} width='100%' height='100%'/>
-            </div>
+            <h3>Press the play button</h3>
+            <video width='75%' height='75%' controls>
+                <source src={perfectFitVideo} type="video/mp4"/>
+            </video>
         </div>
 
         <div className='description-box'>

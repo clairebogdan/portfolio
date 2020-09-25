@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
 import reeds from '../../assets/reeds.jpg'
+import bogdanReedsVideo from '../../assets/project_pics/bogdanreeds/bogdanReedsVideo.mp4'
 
 function BogdanReeds() {
 
@@ -15,7 +15,14 @@ function BogdanReeds() {
         </div>
 
         <div className='project-img'>
-            <img src={reeds} width='100%' height='100%'/>
+            <img src={reeds} width='70%' height='70%'/>
+        </div>
+
+        <div className='project-img'>
+            <h3>Press the play button</h3>
+            <video width='50%' height='50%' controls>
+                <source src={bogdanReedsVideo} type="video/mp4"/>
+            </video>
         </div>
 
         <div className='description-box'>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css';
-import ICmain from '../../assets/project_pics/instrumentcalc/ICmain.png'
+import instrumentCalcVideo from '../../assets/project_pics/instrumentcalc/instrumentCalcVideo.mp4'
 
 function InstrumentCalc() {
 
@@ -14,7 +14,10 @@ function InstrumentCalc() {
         </div>
 
         <div className='project-img'>
-            <img src={ICmain} width='100%' height='100%'/>
+            <h3>Press the play button</h3>
+            <video width='80%' height='80%' controls>
+                <source src={instrumentCalcVideo} type="video/mp4"/>
+            </video>
         </div>
 
         <div className='description-box'>
