@@ -27,7 +27,7 @@ class Contact extends Component {
     handleSubmit(e) {
         e.preventDefault()
 
-        const { name, email, subject, message } = this.state
+        const { name, subject, message } = this.state
 
         let templateParams = {
             from_name: name,
@@ -39,7 +39,7 @@ class Contact extends Component {
         emailjs.send(
             'gmail',
             'template_ok4gegk',
-            'templateParams',
+            templateParams,
             'user_jS6RUTjj8a1tc2Yozo8kf'
         ).then((response) => {
             console.log("Success!", response.status, response.text);
