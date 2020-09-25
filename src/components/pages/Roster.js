@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/ProjectItems.css'
 import ProjectNav from '../navbar/ProjectNav'
 import students from '../../assets/project_pics/roster/students.jpg'
@@ -17,12 +16,12 @@ function Roster() {
         </div>
 
         <div className='project-img'>
-            <img src={students} width='80%' height='80%' />
+            <img src={students} alt="students in a classroom" width='80%' height='80%' />
         </div>
 
         <div className='project-img'>
             <h3>Program output:</h3>
-            <img src={rosterOutput} width='80%' height='80%' />
+            <img src={rosterOutput} alt="code output" width='80%' height='80%' />
         </div>
 
         <div className='description-box'>

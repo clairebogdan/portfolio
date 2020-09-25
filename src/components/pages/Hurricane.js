@@ -30,7 +30,7 @@ function Hurricane() {
 
         <div className='award'>
             <div className='img-grid-item'>
-                <img src={AIAward} width='80%' height='80%'/>
+                <img src={AIAward} alt="award" width='80%' height='80%'/>
             </div>
 
             <div className='img-grid-item'>

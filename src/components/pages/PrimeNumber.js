@@ -15,7 +15,7 @@ function PrimeNumber() {
             </div>
 
             <div className='project-img'>
-                <img src={num} width='60%' height='60%' />
+                <img src={num} alt="the number 13" width='60%' height='60%' />
             </div>
 
             <div className='project-img'>

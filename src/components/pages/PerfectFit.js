@@ -17,7 +17,7 @@ function PerfectFit() {
         </div>
 
         <div className='project-img'>
-            <img src={perfectFitImg} width='40%' height='40%'/>
+            <img src={perfectFitImg} alt="perfectfit logo" width='40%' height='40%'/>
         </div>
         
         <div className='project-img'>
@@ -37,7 +37,7 @@ function PerfectFit() {
 
         <div className='award'>
             <div className='img-grid-item'>
-                <img src={PFaward} width='80%' height='80%'/>
+                <img src={PFaward} alt="award" width='80%' height='80%'/>
             </div>
 
             <div className='img-grid-item'>

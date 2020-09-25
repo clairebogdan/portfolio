@@ -16,7 +16,7 @@ function PackageDelivery() {
         </div>
 
         <div className='project-img'>
-            <img src={packages} width='80%' height='80%' />
+            <img src={packages} alt="boxes in a delivery truck"  width='80%' height='80%' />
         </div>
 
         <div className='project-img'>

@@ -15,7 +15,7 @@ function BogdanReeds() {
         </div>
 
         <div className='project-img'>
-            <img src={reeds} width='70%' height='70%'/>
+            <img src={reeds} alt="oboe reeds" width='70%' height='70%'/>
         </div>
 
         <div className='project-img'>
