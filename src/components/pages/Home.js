@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <>
         <h1 className='home'>CLAIRE BOGDAN</h1>
-        <p>blah blah blah</p>
+        <h2>WEBSITE COMING SOON! :)</h2>
         </>
     );
 }

@@ -14,6 +14,8 @@ export default function About() {
         <div className='bio'>
             <p>Hi, I'm Claire!
                 <br/><br/>
+                THIS IS A TEMPORARY BIO THAT WILL BE EDITED LATER :)
+                <br/><br/>
                 I am a recent computer science graduate from Western Governors University (September 2020).
                 This is just one aspect of my career change journey.
                 <br/><br/>
@@ -24,12 +26,12 @@ export default function About() {
                 two years-- one year in Parkland, Florida, and another in Summerville, South Carolina.
                 <br/><br/>
                 During my first year teaching, I expereinced a school shooting. This was the main catalyst for 
-                deciding to leave teaching. However, I was not sure what else I could do with my Music Education
-                degree. I still loved teaching and performing, but I wanted to do something else as my career.
+                deciding to leave teaching. I still loved teaching and performing, but I knew I needed to do 
+                something else as my career.
                 <br/><br/>
-                In November 2018, I was encouraged to try coding.
+                In November 2018, I was encouraged to try coding. INSERT MORE HERE!
                 <br/><br/>
-                Now, I am searching for junior software engineering positions!              
+                CONCLUSION!             
             </p>
         </div>
 
