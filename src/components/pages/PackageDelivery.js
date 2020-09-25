@@ -16,7 +16,7 @@ function PackageDelivery() {
         </div>
 
         <div className='project-img'>
-            <img src={packages} width='100%' height='100%' />
+            <img src={packages} width='80%' height='80%' />
         </div>
 
         <div className='description-box'>

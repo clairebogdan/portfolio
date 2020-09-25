@@ -1,11 +1,7 @@
 import React from 'react';
 import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
-import IMmain from '../../assets/project_pics/inventory/IMmain.png'
-import IMaddPart from '../../assets/project_pics/inventory/IMaddPart.png'
-import IMmodPart from '../../assets/project_pics/inventory/IMmodPart.png'
-import IMaddProd from '../../assets/project_pics/inventory/IMaddProd.png'
-import IMmodProd from '../../assets/project_pics/inventory/IMmodProd.png'
+import inventoryVideo from '../../assets/project_pics/inventory/inventoryVideo.mp4'
 
 function InventoryManager() {
 
@@ -18,27 +14,10 @@ function InventoryManager() {
         </div>
 
         <div className='project-img'>
-            <img src={IMmain} width='100%' height='100%'/>
-        </div>
-
-        <div className='img-grid'>
-            <div className='img-grid-item'>
-                <img src={IMaddPart} width='100%' height='100%'/>
-            </div>
-
-            <div className='img-grid-item'>
-                <img src={IMmodPart} width='100%' height='100%'/>
-            </div>
-        </div>
-
-        <div className='img-grid'>
-            <div className='img-grid-item'>
-                <img src={IMaddProd} width='100%' height='100%'/>
-            </div>
-
-            <div className='img-grid-item'>
-                <img src={IMmodProd} width='100%' height='100%'/>
-            </div>
+            <h3>Press the play button</h3>
+            <video width='60%' height='60%' controls>
+                <source src={inventoryVideo} type="video/mp4"/>
+            </video>
         </div>
 
         <div className='description-box'>
