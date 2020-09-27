@@ -8,10 +8,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 1%;
-    margin-bottom: 2%;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .img-grid {
@@ -110,6 +108,8 @@
 }
 
 .btn-sm {
+    height: 40px;
+    width: 160px;
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
@@ -134,6 +134,10 @@ body {
     overflow-x: hidden;
 }
 
+.blank {
+    height: 20px;
+}
+
 @media screen and (max-width: 1050px) {
     .award {
         display: grid;
@@ -147,4 +151,26 @@ body {
         font-size: 19px;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+    .tool-language {
+        font-size: 16px;
+    }
+    
+    .tool-framework {
+        font-size: 16px;
+    }
+    
+    .tool-deploy {
+        font-size: 16px;
+    }
+    
+    .tool-database {
+        font-size: 16px;
+    }
+    
+    .tool-ide {
+        font-size: 16px;
+    }
 }

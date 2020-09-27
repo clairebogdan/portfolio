@@ -38,7 +38,7 @@ function InventoryManager() {
 
             <div className='link-grid'>
                 <h1><center>Link:</center></h1>
-                <a className='btn' href="https://github.com/clairebogdan/C482_Project">GitHub Repo</a>
+                <a className='btn-sm' href="https://github.com/clairebogdan/C482_Project">GitHub Repo</a>
             </div>
         </div>
 

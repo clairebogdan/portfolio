@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import '../styles/About.css';
 import { Link } from 'react-router-dom';
+import resume from '../../assets/resume.pdf';
 
 export default function About() {
     return (
@@ -36,16 +37,14 @@ export default function About() {
         </div>
 
         <div className='button-bar'>
-            <Link to='/portfolio'>
-                <button className='btn-link'>
+            <a className='about-btn' href={resume}>Resume</a>
+
+            <Link to='/portfolio' className='about-btn'>
                     See Portfolio <i class="fas fa-chevron-right"></i>
-                </button>
             </Link>
             
-            <Link to='/contact'>
-                <button className='btn-link'>
+            <Link to='/contact' className='about-btn'>
                     Contact Me <i class="fas fa-chevron-right"></i>
-                </button>
             </Link>
         </div>
         </>

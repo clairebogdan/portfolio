@@ -22,13 +22,13 @@ function PerfectFit() {
         
         <div className='project-img'>
             <h3>Press the play button</h3>
-            <video width='75%' height='75%' controls>
+            <video width='85%' height='85%' controls>
                 <source src={perfectFitVideo} type="video/mp4"/>
             </video>
         </div>
 
         <div className='description-box'>
-            <h1><center>Description:</center></h1>
+            <h2><center>Description:</center></h2>
             <p>PerfectFit is a fictional company that seeks to help people
                 find jobs that are great matches for them based on their
                 personality.

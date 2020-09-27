@@ -16,6 +16,7 @@ function PackageDelivery() {
         </div>
 
         <div className='project-img'>
+            <div className='blank'></div>
             <img src={packages} alt="boxes in a delivery truck"  width='80%' height='80%' />
         </div>
 
@@ -27,7 +28,7 @@ function PackageDelivery() {
         </div>
 
         <div className='description-box'>
-            <h1><center>Description:</center></h1>
+            <h2><center>Description:</center></h2>
             <p>This project's main objective was to deliver a set list of 
                 packages to a set list of locations. The packages and locations 
                 were given. There are 2 "drivers" and three "trucks" to deliver the 

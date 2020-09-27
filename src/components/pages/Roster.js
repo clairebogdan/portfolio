@@ -16,6 +16,7 @@ function Roster() {
         </div>
 
         <div className='project-img'>
+            <div className='blank'></div>
             <img src={students} alt="students in a classroom" width='80%' height='80%' />
         </div>
 
@@ -39,7 +40,7 @@ function Roster() {
 
             <div className='link-grid'>
                 <h1><center>Link:</center></h1>
-                <a className='btn' href="https://github.com/clairebogdan/C867_Project">GitHub Repo</a>
+                <a className='btn-sm' href="https://github.com/clairebogdan/C867_Project">GitHub Repo</a>
             </div>
         </div>
 

@@ -15,6 +15,7 @@ function PrimeNumber() {
             </div>
 
             <div className='project-img'>
+                <div className='blank'></div>
                 <img src={num} alt="the number 13" width='60%' height='60%' />
             </div>
 
@@ -40,7 +41,7 @@ function PrimeNumber() {
 
                 <div className='link-grid'>
                     <h1><center>Link:</center></h1>
-                    <a className='btn' href="https://github.com/clairebogdan/PrimeNumberGenerator">GitHub Repo</a>
+                    <a className='btn-sm' href="https://github.com/clairebogdan/PrimeNumberGenerator">GitHub Repo</a>
                 </div>
             </div>
 

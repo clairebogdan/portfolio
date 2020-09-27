@@ -15,18 +15,19 @@ function BogdanReeds() {
         </div>
 
         <div className='project-img'>
-            <img src={reeds} alt="oboe reeds" width='70%' height='70%'/>
+            <div className='blank'></div>
+            <img src={reeds} alt="oboe reeds" width='85%' height='85%'/>
         </div>
 
         <div className='project-img'>
             <h3>Press the play button</h3>
-            <video width='70%' height='70%' controls>
+            <video width='85%' height='85%' controls>
                 <source src={bogdanReedsVideo} type="video/mp4"/>
             </video>
         </div>
 
         <div className='description-box'>
-            <h1><center>Description:</center></h1>
+            <h2><center>Description:</center></h2>
             <p>This project allows the user to "order" oboe reeds from my 
                 company, Bogdan Reeds. As of right now, this is a prototype application.
                 The user can interact with the CLI and answer questions regarding their 
@@ -47,7 +48,7 @@ function BogdanReeds() {
 
             <div className='link-grid'>
                 <h1><center>Link:</center></h1>
-                <a href="https://github.com/clairebogdan/bogdanreeds"className='btn'>GitHub Repo</a>
+                <a href="https://github.com/clairebogdan/bogdanreeds"className='btn-sm'>GitHub Repo</a>
             </div>
         </div>
 

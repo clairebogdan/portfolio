@@ -15,13 +15,13 @@ function InstrumentCalc() {
 
         <div className='project-img'>
             <h3>Press the play button</h3>
-            <video width='80%' height='80%' controls>
+            <video width='85%' height='85%' controls>
                 <source src={instrumentCalcVideo} type="video/mp4"/>
             </video>
         </div>
 
         <div className='description-box'>
-            <h1><center>Description:</center></h1>
+            <h2><center>Description:</center></h2>
             <p>Back when I was a band director, I remember constantly having to recalculate 
                 my beginning band numbers. The instrumentation of the beginning band is integral
                 for achieving a balanced sound in the band program.
@@ -59,8 +59,8 @@ function InstrumentCalc() {
 
             <div className='link-grid'>
                 <h1><center>Links:</center></h1>
-                <a href="https://beginner-band.herokuapp.com" className='btn'>Webpage</a>
-                <a href="https://github.com/clairebogdan/Beginner_Instrumentation_Calculator"className='btn'>GitHub Repo</a>
+                <a href="https://beginner-band.herokuapp.com" className='btn-sm'>Webpage</a>
+                <a href="https://github.com/clairebogdan/Beginner_Instrumentation_Calculator"className='btn-sm'>GitHub Repo</a>
             </div>
         </div>
 
