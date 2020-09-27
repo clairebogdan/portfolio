@@ -6,12 +6,19 @@
     display: grid;
 }
 
-.column {
-    border: 1px solid rgb(227, 244, 255);
-    border-radius: 4px;
+.project-grid {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.project-item {
+    border: 4px solid rgb(227, 244, 255);
     float: left;
-    width: 50%;
-    box-sizing: border-box;
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -39,29 +46,17 @@
     background: #fff;
 }
 
-.column:hover {
+.project-item:hover {
     padding: 5px 5px;
     transition: all 0.3s ease-out;
-    background: #ecf0ff;
+    background: rgb(227, 244, 255);
     color: #000;
     transition: 250ms;
     visibility: visible;
 }
 
-.row {
-    max-width: 1200px;
-    width: 100%;
-    padding: 8% 8%;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-}
 
-.project-grid {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .name {
     padding: 10px;
@@ -105,12 +100,13 @@
 
 @media screen and (max-width: 750px) {
 
-    .row {
+    .project-grid {
+        grid-template-columns: 100%;
         width: 100%;
         max-width: 750px;
 
     }
-    .column {
+    .project-item {
         border: 1px solid rgb(227, 244, 255);
         border-radius: 4px;
         float: left;
