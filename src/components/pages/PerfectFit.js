@@ -29,9 +29,28 @@ function PerfectFit() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p>PerfectFit is a fictional company that seeks to help people
-                find jobs that are great matches for them based on their
-                personality.
+            <p><strong>Overview: </strong>PerfectFit is a fictional company that seeks to match people to their ideal 
+                career — or “perfect fit” — based on their personality.
+                In order to achieve this goal, I used a dataset from Kaggle.com that 
+                observed a group of people’s Myers-Briggs personality types, careers, and 
+                satisfaction with those careers. The data included a personality quiz as well. 
+                Visitors to PerfectFit's website can see visualizations of the data, view information 
+                about the fictional company, learn more about Myer-Briggs personality types, create 
+                an account, login, and take the same personality quiz that the data was based on. By taking 
+                this quiz, users see what their Myers-Briggs personality type is as well as prediction for 
+                how satisfied they would be at 43 different jobs. These 43 jobs come from the data as well.
+
+                <br/><br/>
+                <strong>Technical: </strong>PerfectFit's website was built using Python/Flask and deployed using Heroku. 
+                The data analysis (Principal Component Analysis) was conducted using Pandas and Jupyter Notebook, 
+                then transferred to the main development IDE (PyCharm). The data visualizations seen on the Home page 
+                were constructed using ChartJS and d3.js. In order to find out what career is your "perfect fit", 
+                a user has to create an account. When the user successfully creates an account, the data is added to 
+                the SQLite3 database. The password is encryped using the Werkzueg package. The user then is able to login and 
+                take the quiz. Once the user submits their answers, the program records their "personality scales" (values) 
+                to the database. These numbers are run through the prediction model (logistic regression). This model 
+                predicts satisfaction at each of the 43 jobs on a scale of 0 - 1 for a particular personality. Finally, 
+                the user will see their Myers-Briggs personality type and their predicted satisfaction at each job.
             </p>
         </div>
 
@@ -43,10 +62,11 @@ function PerfectFit() {
             <div className='img-grid-item'>
                 <p>This project received the <strong>Capstone
                     Certificate of Excellence</strong> from Western
-                    Governors University. The project was nominated by 
+                    Governors University. <br/><br/>
+                    It was nominated by 
                     a WGU Evaluation faculty member for special recognition 
                     due to the exceptional nature of the project.
-                    The evaluator stated: <i>"The Capstone analyzes a functioning 
+                    The evaluator stated:<br/><br/> <strong><i>"The Capstone analyzes a functioning 
                     Python Flask web application that allows the user to explore 
                     Myers-Briggs personality traits and potential careers. Users 
                     can take a personality test of their own and are provided with 
@@ -54,7 +74,7 @@ function PerfectFit() {
                     The work is well organized, mechanically sound, effectively 
                     details the phases of the development and the features of the 
                     data product, and demonstrates competencies supporting all 
-                    program outcomes."</i>
+                    program outcomes."</i></strong>
                 </p>
             </div>
         </div>
@@ -62,7 +82,7 @@ function PerfectFit() {
         <div className='tools-links'>
             
             <div className='tools'>
-                <h1><center>Tools:</center></h1>
+                <h2 className='TL-headers'>Tools:</h2>
                 <span className='tool-language'>Python</span>
                 <span className='tool-language'>HTML</span>
                 <span className='tool-language'>JavaScript</span>
@@ -76,7 +96,7 @@ function PerfectFit() {
             
 
             <div className='link-grid'>
-                <h1><center>Links:</center></h1>
+                <h2 className='TL-headers'>Links:</h2>
                 <a className='btn-sm' href="https://perfectfit-wgu.herokuapp.com">Webpage</a>
                 <a className='btn-sm' href="https://github.com/clairebogdan/perfectfit">GitHub Repo</a>
                 <a className='btn-sm' href="https://drive.google.com/file/d/1e_SYjYdKVa6cWnmpoFJREmEoC1Jhodhj/view?usp=sharing">Documentation</a>               

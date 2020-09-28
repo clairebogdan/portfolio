@@ -41,13 +41,13 @@ function BogdanReeds() {
         <div className='tools-links'>
             
             <div className='tools'>
-                <h1><center>Tools:</center></h1>
+                <h2 className='TL-headers'>Tools:</h2>
                 <span className='tool-language'>Java</span>
                 <span className='tool-ide'>NetBeans</span>
             </div>
 
             <div className='link-grid'>
-                <h1><center>Link:</center></h1>
+                <h2 className='TL-headers'>Link:</h2>
                 <a href="https://github.com/clairebogdan/bogdanreeds"className='btn-sm'>GitHub Repo</a>
             </div>
         </div>

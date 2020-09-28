@@ -47,7 +47,7 @@ function InstrumentCalc() {
         <div className='tools-links'>
             
             <div className='tools'>
-                <h1><center>Tools:</center></h1>
+                <h2 className='TL-headers'>Tools:</h2>
                 <span className='tool-language'>Python</span>
                 <span className='tool-language'>HTML</span>
                 <span className='tool-framework'>Flask</span>
@@ -58,7 +58,7 @@ function InstrumentCalc() {
 
 
             <div className='link-grid'>
-                <h1><center>Links:</center></h1>
+                <h2 className='TL-headers'>Links:</h2>
                 <a href="https://beginner-band.herokuapp.com" className='btn-sm'>Webpage</a>
                 <a href="https://github.com/clairebogdan/Beginner_Instrumentation_Calculator"className='btn-sm'>GitHub Repo</a>
             </div>

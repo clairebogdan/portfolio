@@ -26,20 +26,26 @@ function Roster() {
         </div>
 
         <div className='description-box'>
-            <h1><center>Description:</center></h1>
-            <p>this is where the description will go</p>
+            <h2><center>Description:</center></h2>
+            <p>This C++ application was the first coding project I completed at 
+                Western Governors University. The program simply prints to the console and 
+                does not require user interaction (other than pressing "run"). This project 
+                demonstrated my knowledge of the basics object oriented programming, writing functions, 
+                creating enum variables, looping through an array, printing 
+                to the console. 
+            </p>
         </div>
 
         <div className='tools-links'>
             
             <div className='tools'>
-                <h1><center>Tools:</center></h1>
+                <h2 className='TL-headers'>Tools:</h2>
                 <span className='tool-language'>C++</span>
                 <span className='tool-ide'>NetBeans</span>
             </div>
 
             <div className='link-grid'>
-                <h1><center>Link:</center></h1>
+                <h2 className='TL-headers'>Link:</h2>
                 <a className='btn-sm' href="https://github.com/clairebogdan/C867_Project">GitHub Repo</a>
             </div>
         </div>

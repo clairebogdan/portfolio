@@ -23,13 +23,17 @@
     padding: 5%
 }
 
+.img-grid-item {
+    font-size: 16px;
+}
+
 .description-box {
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 1%;
     margin-bottom: 2%;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .award {
@@ -40,14 +44,20 @@
     justify-content: center;
     align-items: center;
     padding: 5%;
-    font-size: 19px;
+    font-size: 15px;
+}
+
+.TL-headers {
+    text-align: center;
 }
 
 .tools-links {
+    height: auto;
     display: grid;
     width: 100%;
     grid-template-columns: 50% 50%;
     margin: 5%;
+    cursor: default;
 }
 
 .tool-language {
@@ -138,6 +148,7 @@ body {
     height: 20px;
 }
 
+
 @media screen and (max-width: 1050px) {
     .award {
         display: grid;
@@ -154,6 +165,14 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+
+    .btn-sm {
+        height: 35px;
+        width: 150px;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+    }
     .tool-language {
         font-size: 16px;
     }
