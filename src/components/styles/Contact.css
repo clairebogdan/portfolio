@@ -13,14 +13,16 @@
     width: 100%;
     display: grid;
     grid-template-columns: 50px 50px;
-    padding: 1px;
-    grid-column-gap: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    grid-column-gap: 20%;
     justify-content: center;
 }
 
 .grid-item {
     padding: 10px;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
 }
 
@@ -102,9 +104,6 @@ textarea#message {
 
 @media screen and (max-width: 960px) {
     
-    .contact-title {
-        font-size: 2.5rem;
-    }
     Form {
         border-radius: 2px;
         background-color: #EFE9E7;
@@ -133,9 +132,13 @@ textarea#message {
 
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 540px) {
     
     .contact-title {
         font-size: 2rem;
+    }
+
+    .grid-item {
+        font-size: 60px;
     }
 }
