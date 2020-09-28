@@ -1,18 +1,16 @@
-.home {
-  display: flex;
-  height: 40vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  background-color:#d3d4ff;
-  color: #000;
-}
-
 .headshot {
   background: url('../../assets/headshot.jpg') 0 0 no-repeat / cover;
   padding-bottom: 65.89%;
   height: 0;
   text-align: center;
+}
+
+.mobile-headshot {
+  display: none;
+}
+
+.mobile-container {
+  display: none;
 }
 
 .home-text-outer {
@@ -60,11 +58,50 @@
   border: black;
 }
 
+@media screen and (max-width: 760px) {
 
-  @media screen and (max-width: 960px) {
-
-    .home {
-        font-size: 2.5rem;
-        height: 20vh;
-    }
+  .mobile-headshot {
+    display: block;
+    background-color: #d3d4ff
   }
+
+  .mobile-container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #d3d4ff;
+    height: auto;
+  }
+
+  .mobile-text {
+    padding: 20px;
+  }
+
+  .learn-more-btn-mobile {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #8185fd;
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .learn-more-btn-mobile:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: rgb(224, 224, 224);
+    color: #111344;
+    transition: 250ms;
+    border: black;
+  }
+
+  .headshot {
+    display: none;
+  }
+
+}
