@@ -28,13 +28,18 @@ function PrimeNumber() {
 
             <div className='description-box'>
                 <h2><center>Description:</center></h2>
-                <p>The Prime Number Generator returns an ordered list of all prime numbers in a 
-                    range (inclusive of the endpoints) that is specified by the user. The user enters their 
-                    starting and ending values (range) in the command line. 
+                <p><strong>Overview: </strong>Prime numbers are natural numbers that 
+                    are only divisible by 1 and themselves. 
+                    The Prime Number Generator returns an ordered list of all prime numbers in a 
+                    given range (inclusive of the endpoints).
                     The program can handle inverse ranges such as that 1-10 and 10-1 are equivalent. 
-                    Unit tests were created that pass and provide 100% code coverage. The program accounts for 
+                    <br/><br/>
+                    <strong>Technical: </strong>This Java CLI application allows the user to enters their 
+                    starting and ending values (range) in the command line. The program accounts for 
                     user error, allowing the user to try again or purposefully exit the program upon unacceptable 
-                    input values.
+                    input values. JUnit tests were created to make sure that the prime numbers that were generated 
+                    were truly prime. The algorithm can find all prime numbers between 1 and 1 million in 13 seconds, 
+                    and all prime numbers between 1 and 10 million in 64 seconds.
                 </p>
             </div>
 

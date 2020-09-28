@@ -27,11 +27,21 @@ function Roster() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p>This C++ application was the first coding project I completed at 
+            <p><strong>Overview: </strong>Using a given class roster consisting of 5 students, show the following 
+                information to the user:
+                <br/>
+                All students and their information,
+                a list of invalid email addresses, 
+                the average amount of days that each student can complete 3 courses, 
+                students in the software degree program, removal of a student from the roster, 
+                an updated list of all students, and a search output for the removed student.
+
+                <br/><br/>
+                <strong>Technical: </strong>This C++ application was the first coding project I completed at 
                 Western Governors University. The program simply prints to the console and 
                 does not require user interaction (other than pressing "run"). This project 
                 demonstrated my knowledge of the basics object oriented programming, writing functions, 
-                creating enum variables, looping through an array, printing 
+                parsing array string data, creating enum variables, looping through an array, and printing 
                 to the console. 
             </p>
         </div>

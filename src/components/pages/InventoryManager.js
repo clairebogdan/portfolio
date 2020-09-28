@@ -22,21 +22,22 @@ function InventoryManager() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>This application was created in order to help a person 
-                or business manage their inventory. The inventory is categoriezed into "parts" and 
-                "products" with the assumption that several parts make up a product. For example, 
-                a candle maker would need wax, fragerance, wicks, and jars (parts) in order to make 
+            <p><strong>Overview: </strong>This application helps people/businesses manage their inventory. 
+                The inventory is categoriezed into "parts" and "products" where parts make up a product.
+                For example, 
+                a candle company needs wax, fragerance, wicks, and jars (parts) in order to make 
                 their candle (product). When running the application, users are able to add, modify, 
-                and delete parts and products. <i>This project serves as a precedent 
+                and delete parts and products from the inventory. <i>This project serves as a precedent 
                 to the Appointment Manager application.</i>
 
                 <br/><br/>
                 <strong>Technical: </strong>This Java/JavaFX application was built using NetBeans. The GUI 
-                was constructed with the help of SceneBuilder. This application does not have a database; 
+                was constructed via SceneBuilder. This application does not have a database; 
                 instead, parts and products are Java objects. Upon loading, the initial parts 
                 and products that are shown are hard coded into the application. Additions, modifications, 
-                and deletions are only temporarily saved. When exiting the program, these changes will be 
-                removed. </p>
+                and deletions of parts and products are only temporarily saved. 
+                When exiting the program, any changes that were made 
+                are removed.</p>
         </div>
 
         <div className='tools-links'>

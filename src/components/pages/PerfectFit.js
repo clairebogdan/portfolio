@@ -35,10 +35,10 @@ function PerfectFit() {
                 observed a group of people’s Myers-Briggs personality types, careers, and 
                 satisfaction with those careers. The data included a personality quiz as well. 
                 Visitors to PerfectFit's website can see visualizations of the data, view information 
-                about the fictional company, learn more about Myer-Briggs personality types, create 
+                about the fictional company, learn more about Myers-Briggs personality types, create 
                 an account, login, and take the same personality quiz that the data was based on. By taking 
-                this quiz, users see what their Myers-Briggs personality type is as well as prediction for 
-                how satisfied they would be at 43 different jobs. These 43 jobs come from the data as well.
+                this quiz, users see what their Myers-Briggs personality type is as well as predictions for 
+                how satisfied they would be at 43 different jobs.
 
                 <br/><br/>
                 <strong>Technical: </strong>PerfectFit's website was built using Python/Flask and deployed using Heroku. 
