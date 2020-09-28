@@ -55,9 +55,6 @@
     visibility: visible;
 }
 
-
-
-
 .name {
     padding: 10px;
     font-size: 1.5rem;
@@ -150,9 +147,11 @@
     .cert-grid {
         display: grid;
         grid-template-columns: 200px 200px;
+        grid-template-rows: 130px 150px;
         text-align: center;
         justify-content: center;
         align-items: center;
+        min-height: auto;
     }
 
     .cert {

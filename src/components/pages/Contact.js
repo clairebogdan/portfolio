@@ -67,8 +67,8 @@ class Contact extends Component {
     render() {
         return (
             <>
-            <div className='top'>
-                <h2 className='contact'>CONTACT ME</h2>
+            <div className='contact-title'><h2>CONTACT ME</h2></div>
+            
                 <div className='grid-container'>
                     
                     <div className='grid-item'>
@@ -88,7 +88,6 @@ class Contact extends Component {
                             <span className='tooltiptext'>Message me on LinkedIn!</span>
                         </div>
                     </div>
-                </div>
             </div>
             
             <Form onSubmit={this.handleSubmit.bind(this)}>

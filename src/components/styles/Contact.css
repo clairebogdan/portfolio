@@ -1,17 +1,16 @@
-.top {
-    display: grid;
-    height: 250px;
-    font-size: 2rem;
-    align-items: center;
-    justify-content: center;
+.contact-title {
     background-color:#d3d4ff;
-    color: #000;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 7%;
+    font-size: 3rem;
+    padding: 5%;
+    display: flex;
 }
 
 .grid-container {
-    width: 400px;
+    background-color:#d3d4ff;
+    width: 100%;
     display: grid;
     grid-template-columns: 50px 50px;
     padding: 1px;
@@ -103,6 +102,9 @@ textarea#message {
 
 @media screen and (max-width: 960px) {
     
+    .contact-title {
+        font-size: 2.5rem;
+    }
     Form {
         border-radius: 2px;
         background-color: #EFE9E7;
@@ -129,4 +131,11 @@ textarea#message {
         padding:8px 8px 8px;
     }
 
+}
+
+@media screen and (max-width: 960px) {
+    
+    .contact-title {
+        font-size: 2rem;
+    }
 }
