@@ -22,16 +22,17 @@ function InstrumentCalc() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p>Back when I was a band director, I remember constantly having to recalculate 
-                my beginning band numbers. The instrumentation of the beginning band is integral
-                for achieving a balanced sound in the band program.
-                Planning for the instrumentation was difficult due to the constantly changing
-                beginning band numbers. My principal would tell me that I would have 
-                70 new beginners one week, then 170 the next week!
+            <p><strong>Overview: </strong>As a former middle school band director, I know the 
+                importance of having a "balanced" beginning band. Having the correct 
+                number of students on each instrument is important to achieve this balanced sound. 
+                However, the prediction for the number of students joining beginning band constantly 
+                changes. Every time the prediction would change, I would have to recalculate the numbers 
+                by hand. To solve this problem, I created an application that takes in the user's number of students 
+                for their beginner band and calculates how many students should be assigned to each instrument. Using this 
+                application is <i>much</i> faster than doing the calculations by hand. 
                 <br/><br/>
-                This app is designed to help band directors quickly calculate the 
-                instrumentation of the beginner band. 
-                There are 3 options: 
+                <strong>Technical: </strong>This is a Python/Flask web application deployed on Heroku. The user inputs a 
+                number (total number of students that will be in their beginner band) and selects one of the following options:
                 <br/><br/>
                 <strong>Full instrumentation</strong> - uses Scott Rush's "Habits of a Middle School Band Director"  
                 instrumentation percentages
@@ -40,6 +41,8 @@ function InstrumentCalc() {
                 specialty instruments
                 <br/>
                 <strong>Categorical instrumentation</strong> - only includes general instrument categories
+                <br/><br/>
+                When the user clicks submit, the instrumentation is calculated and is shown to the user. 
                 </p>
         </div>
 

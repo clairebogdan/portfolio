@@ -25,7 +25,7 @@ function Hurricane() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Fictional Scenario: </strong>Hurricane Catherine (Category 5) severely damaged the coast of Charleston, South Carolina.
+            <p><strong>Overview: (fictional scenario) </strong>Hurricane Catherine (Category 5) severely damaged the coast of Charleston, South Carolina.
                 There are multiple fallen trees, downed powerlines, and large pieces of debris in the coastal
                 communities. The iClean robot’s task is to clean up small pieces of
                 debris (not shown in simulation) while gathering information about the larger debris objects
@@ -41,8 +41,8 @@ function Hurricane() {
                 is located, thus specifying where to send specific types of clean-up crews.
                 <br/><br/>
                 <strong>Technical: </strong>Using the CoppeliaSim software, I followed one of the CoppeliaSim tutorials to 
-                create a "BubbleRob". Then, I edited this BubbleRob (renamed "iClean") to include more sensors. I had to 
-                edit the code slightly to prevent the iClean from bumping into things while moving backwards. Lastly, I added 
+                create a "BubbleRob". Then, I edited this BubbleRob (renamed "iClean") to include more sensors. I 
+                edited the code to prevent the iClean from bumping into things while moving backwards. I added 
                 cubiods to the scene to represent downed powerlines, trees, and large debris objects. The iClean has cameras 
                 that allow the user to see the scene from the iClean's point of view. The iClean moves automatically and avoids 
                 bumping into debris.</p>

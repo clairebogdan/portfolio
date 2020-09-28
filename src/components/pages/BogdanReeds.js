@@ -28,13 +28,21 @@ function BogdanReeds() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p>This project allows the user to "order" oboe reeds from my 
-                company, Bogdan Reeds. As of right now, this is a prototype application.
-                The user can interact with the CLI and answer questions regarding their 
-                oboe reed order. The program collects the user's information such as 
-                name, address, payment method, number of reeds, and shipping option.
+            <p><strong>Overview: </strong>As a freelance oboist, I make and sell oboe reeds to 
+                oboists across the US. When someone wants to order oboe reeds, it is important 
+                that I know some information about the person that will use the reeds. I need to 
+                know the customer's name, how many reeds they would like, how long the oboist has been playing, 
+                their shipping address, their shipping method, and their payment 
+                method. Once I have this information, I am able to make the customer's reed(s) and 
+                ship them. This program allows the user to "order" oboe reeds from my 
+                company, Bogdan Reeds. 
                 <br/><br/>
-                This program will be expanded to become a website and web application.
+                <strong>Technical: </strong>This is a Java CLI application. 
+                Via the command line, the customer inputs their answers 
+                to the questions. The program uses try-catch blocks to prevent the 
+                program from crashing when the user enters invalid information. 
+                <i>This program will be expanded to become a website 
+                and web application.</i>
             </p>
         </div>
 

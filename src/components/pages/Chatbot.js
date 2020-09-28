@@ -22,28 +22,33 @@ function Chatbot() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p>The "WGU Computer Science Career Services Bot" is a chatbot I created using pandorabots and AIML. 
-                Once you type a greeting (like "hello" or "hi") to the chatbot, the chatbot will respond 
+            <p><strong>Overview: </strong>The "WGU Computer Science Career Services Bot" was created to 
+                help a hypothetical Computer Science advisor handle her increase of students. 
+                She had more students than usual, and she was getting too many emails that had very simple answers. To 
+                help decrease her email load, she needed a chatbot to handle many of the common questions that 
+                her students asked her as an advisor. 
+
+                <strong>Technical: </strong>
+                The chatbot was created using Pandorabots and AIML. Once you type a greeting (like "hello" or "hi") to the chatbot, the chatbot responds 
                 with the following menu options: Take Career Path Quiz, See Career Path Options, Interview 
                 Advice, and Schedule an Appointment. 
                 <br/><br/>
                 <strong>Take Career Path Quiz: </strong>This quiz is intended to help users/students find out 
-                what career path to take once finished with their CS degree. The user responds to the chatbot's 
-                prompts by clicking answer choices that they align with the most. Essentially, the quiz works like 
-                a decision tree. Once the user has arrived at their answer, they can click the link (provided by the chatbot) 
-                to learn more about that career path, retake the quiz, or return to the main menu.
+                what career to pursue once finished with their CS degree. The user responds to the chatbot's 
+                prompts by clicking answer choices that they align with the most. The quiz works like 
+                a decision tree. Once the user has arrived at their answer, they can click a link 
+                to learn more about that career, retake the quiz, or return to the main menu.
                 <br/><br/>
-                <strong>See Career Path Options: </strong>Instead of taking the quiz, the chatbot will give the user 
+                <strong>See Career Path Options: </strong>Instead of taking the quiz, the chatbot gives the user 
                 links to all of the career path options.
                 <br/><br/>
-                <strong>Interview Advice: </strong>The chatbot will give the user links to websites that feature 
+                <strong>Interview Advice: </strong>The chatbot gives the user links to websites that feature 
                 useful interview advice/tips. 
                 <br/><br/>
-                <strong>Schedule an Appointment: </strong>The chatbot will give the user timeslots to choose from for 
-                their appointment. Once the user clicks a time, the chatbot will ask for the user's WGU email address. 
-                If the email address is not a WGU email address, the chatbot will reject the appointment scheduling.
-            
-                  </p>
+                <strong>Schedule an Appointment: </strong>The chatbot gives the user timeslots to choose from for 
+                their appointment. Once the user clicks a time, the chatbot asks for the user's WGU email address. 
+                If the email address is not a WGU email address, the chatbot rejects the appointment scheduling.
+                </p>
         </div>
 
         <div className='tools-links'>
