@@ -17,7 +17,17 @@
 }
 
 .bio-text {
-    font-size: 16px;  
+    font-size: 17px;  
+}
+
+.bio-container {
+    margin: 5%;
+    font-size: 20px; 
+}
+
+.center {
+    text-align: center;
+    margin: 2%;
 }
 
 .about-btn {
@@ -25,13 +35,13 @@
     border-radius: 4px;
     outline: none;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     cursor: pointer;
     background-color: #8185fd;
     text-decoration: none;
     text-align: center;
-    width: 160px;
+    width: 180px;
     margin: 0 auto;
 }
 
@@ -54,19 +64,22 @@
     text-align: center;
 }
 
-@media screen and (max-width: 560px) {
-
-    .button-bar {
-        grid-template-columns: 100%;
-    }
+@media screen and (max-width: 700px) {
 
     .about-title {
         font-size: 1.5rem;
     }
-}
 
-@media screen and (max-width: 400px) {
     .bio {
         grid-template-columns: 100%;
     }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .button-bar {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
 }
