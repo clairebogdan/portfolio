@@ -28,6 +28,7 @@
 
 .fa-envelope {
     color: #fff;
+    cursor: pointer;
 }
 
 .LI-logo {
@@ -78,7 +79,7 @@
 
 Form {
     border-radius: 5px;
-    background-color: #EFE9E7;
+    background-color: #dfdfdf;
     padding: 120px;
     align-items: center;
     justify-content: center;
@@ -106,11 +107,7 @@ textarea#message {
     
     Form {
         border-radius: 2px;
-        background-color: #EFE9E7;
         padding: 50px;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
         font-size: 1rem;
     }
     

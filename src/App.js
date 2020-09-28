@@ -17,32 +17,35 @@ import PrimeNumber from './components/pages/PrimeNumber';
 import Roster from './components/pages/Roster';
 import Chatbot from './components/pages/Chatbot';
 import Hurricane from './components/pages/Hurricane';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop>
 
-      <Navbar />
-      
+        <Navbar />
 
-      <Switch>
-        <Route path='/' exact component={Home}/>
-        <Route path='/about' exact component={About} />
-        <Route path='/portfolio' exact component={Portfolio} />
-        <Route path='/contact' exact component={Contact} />
-        <Route path='/perfectfit' exact component={PerfectFit} />
-        <Route path='/instrumentcalc' exact component={InstrumentCalc} />
-        <Route path='/bogdanreeds' exact component={BogdanReeds} />
-        <Route path='/packagedelivery' exact component={PackageDelivery} />
-        <Route path='/appointmentmanager' exact component={AppointmentManager} />
-        <Route path='/inventorymanager' exact component={InventoryManager} />
-        <Route path='/primenumber' exact component={PrimeNumber} />
-        <Route path='/roster' exact component={Roster} />
-        <Route path='/chatbot' exact component={Chatbot} />
-        <Route path='/hurricane' exact component={Hurricane} />
-      </Switch>
+        <Switch>
+          <Route path='/' exact component={Home}/>
+          <Route path='/about' exact component={About} />
+          <Route path='/portfolio' exact component={Portfolio} />
+          <Route path='/contact' exact component={Contact} />
+          <Route path='/perfectfit' exact component={PerfectFit} />
+          <Route path='/instrumentcalc' exact component={InstrumentCalc} />
+          <Route path='/bogdanreeds' exact component={BogdanReeds} />
+          <Route path='/packagedelivery' exact component={PackageDelivery} />
+          <Route path='/appointmentmanager' exact component={AppointmentManager} />
+          <Route path='/inventorymanager' exact component={InventoryManager} />
+          <Route path='/primenumber' exact component={PrimeNumber} />
+          <Route path='/roster' exact component={Roster} />
+          <Route path='/chatbot' exact component={Chatbot} />
+          <Route path='/hurricane' exact component={Hurricane} />
+        </Switch>
 
-      <Footer />
+        <Footer />
+        
+      </ScrollToTop>
     </Router>
   )
 }

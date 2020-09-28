@@ -7,9 +7,8 @@ import resume from '../../assets/resume.pdf';
 export default function About() {
     return (
         <>
-        <div className='intro'>
-            <h1 className='about'>ABOUT ME</h1>
-            <h4>Aspiring Software Engineer, Musician, Former Teacher</h4>
+        <div className='about-title'>
+            <h1>ABOUT ME</h1>
         </div>
 
         <div className='bio'>
