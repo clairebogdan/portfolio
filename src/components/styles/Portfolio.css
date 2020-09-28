@@ -121,23 +121,18 @@
     }
 
     .cert-grid {
-        display: grid;
-        grid-template-columns: 80px 80px 80px 80px;
-        grid-column-gap: 10px;
-        margin: 1%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: 120px 120px 120px 120px;
+        grid-column-gap: 0.5%;
     }
 
     .cert {
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
     }
 
     .cert-itil {
-        width: 100px;
-        height: 70px;
+        width: 130px;
+        height: 80px;
     }
 
     .cert-title {
@@ -148,4 +143,25 @@
         font-size: 2rem;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+
+    .cert-grid {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cert {
+        width: 130px;
+        height: 130px;
+    }
+
+    .cert-itil {
+        width: 180px;
+        height: 100px;
+    }
 }
