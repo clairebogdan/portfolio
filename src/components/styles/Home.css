@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .headshot {
   background: url('../../assets/headshot.jpg') 0 0 no-repeat / cover;
   padding-bottom: 65.89%;
@@ -58,7 +62,7 @@
   border: black;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 800px) {
 
   .mobile-headshot {
     display: block;
@@ -66,15 +70,17 @@
   }
 
   .mobile-container {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #d3d4ff;
-    height: auto;
+    height: 350px;
   }
 
   .mobile-text {
+    margin: 0;
+    top: 50%;
     padding: 20px;
   }
 

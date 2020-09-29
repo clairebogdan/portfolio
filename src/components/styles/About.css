@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .about-title {
     background-color:#d3d4ff;
     justify-content: center;
@@ -27,7 +31,7 @@
 
 .center {
     text-align: center;
-    margin: 2%;
+    margin: 6%;
 }
 
 .about-btn {
@@ -54,6 +58,7 @@
     border: black;
 }
 
+
 .button-bar {
     width: 100%;
     display: grid;
@@ -75,7 +80,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     
     .button-bar {
         display: grid;

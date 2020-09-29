@@ -32,7 +32,7 @@
     grid-template-columns: 120px 200px 120px 120px;
     grid-column-gap: 10px;
     margin: 1%;
-    padding-top: 5%;
+    padding-top: 8%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@
     align-items: center;
     text-align: center;
     font-size: 3rem;
-    padding: 5%;
+    padding: 5%; 
     display: flex;
 }
 
