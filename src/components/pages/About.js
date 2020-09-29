@@ -68,10 +68,17 @@ export default function About() {
                     and followed along with one of their Java tutorials. There was an immediate connection. The fine attention 
                     to detail, trail and error process, and puzzle-solving reminded me so much of what it is like to learn music and 
                     play an instrument. I felt like so many skills translated from music making to coding. I knew from then on 
-                    that I wanted to pursue a career as a software engineer. At the end of my second year of teaching, 
-                    I started to pursue my Bachelor's in Computer Science. THIS IS NOT DONE YET!</p>
+                    that I wanted to pursue a career as a software engineer. At the conclusion of my second year of teaching, 
+                    I started to pursue my Bachelor's in Computer Science.</p>
             </div>
+        </div>
 
+        <div className='bio-container-sm'>
+            <p>While going to school online, I worked as a freelance oboist and established my oboe reed 
+                making business, Bogdan Reeds. I taught private lessons and master classes at various schools 
+                and continue to sell my oboe reeds to oboists all over the country. Now that I have finished my 
+                computer science degree, I am excited to begin working as a software engineer in the near future!
+            </p>
         </div>
 
         <div className='button-bar'>

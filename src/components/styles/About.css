@@ -29,6 +29,11 @@ body {
     font-size: 20px; 
 }
 
+.bio-container-sm {
+    margin: 5%;
+    font-size: 17px; 
+}
+
 .center {
     text-align: center;
     margin: 6%;
