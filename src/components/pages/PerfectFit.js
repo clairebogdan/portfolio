@@ -46,7 +46,7 @@ function PerfectFit() {
                 then transferred to the main development IDE (PyCharm). The data visualizations seen on the Home page 
                 were constructed using ChartJS and d3.js. In order to find out what career is your "perfect fit", 
                 a user has to create an account. When the user successfully creates an account, the data is added to 
-                the SQLite3 database. The password is encryped using the Werkzueg package. The user then is able to login and 
+                the SQLite3 database. The password is encrypted using the Werkzueg package. The user then is able to login and 
                 take the quiz. Once the user submits their answers, the program records their "personality scales" (values) 
                 to the database. These numbers are run through the prediction model (logistic regression). This model 
                 predicts satisfaction at each of the 43 jobs on a scale of 0 - 1 for a particular personality. Finally, 

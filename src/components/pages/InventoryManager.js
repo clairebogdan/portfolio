@@ -23,9 +23,9 @@ function InventoryManager() {
         <div className='description-box'>
             <h2><center>Description:</center></h2>
             <p><strong>Overview: </strong>This application helps people/businesses manage their inventory. 
-                The inventory is categoriezed into "parts" and "products" where parts make up a product.
+                The inventory is categorized into "parts" and "products" where parts make up a product.
                 For example, 
-                a candle company needs wax, fragerance, wicks, and jars (parts) in order to make 
+                a candle company needs wax, fragrance, wicks, and jars (parts) in order to make 
                 their candle (product). When running the application, users are able to add, modify, 
                 and delete parts and products from the inventory. <i>This project serves as a precedent 
                 to the Appointment Manager application.</i>

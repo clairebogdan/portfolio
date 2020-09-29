@@ -43,7 +43,7 @@ function PackageDelivery() {
                 locations. The graph had undirected, weighted edges (weight = miles between each location).
                 I implemented a greedy algorithm (O(N^2))in order to find the best route for the packages to be delivered.
                 The algorithm chose the best (shortest) path for each truck to take. This successfully
-                got all packages delivered on time. The total milages for all trucks was 117.8 miles. Anything under 
+                got all packages delivered on time. The total mileage for all trucks was 117.8 miles. Anything under 
                 170 total miles was considered successful for this project. 
                 <br/><br/>
                 <strong><center>How it works:</center></strong>

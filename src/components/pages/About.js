@@ -62,7 +62,7 @@ export default function About() {
                 <img src={plaques} alt="me with oboe" width="100%" height="100%"/>
             </div>
             <div className='bio-text'>
-                <p>During my first year teaching, I expereinced a school shooting. This was the main catalyst for 
+                <p>During my first year teaching, I experienced a school shooting. This was the main catalyst for 
                     deciding to leave teaching. I still loved teaching and performing, but I knew I needed to do 
                     something else as my career. This was when I was encouraged to try coding. I went to codecademy.com 
                     and followed along with one of their Java tutorials. There was an immediate connection. The fine attention 
