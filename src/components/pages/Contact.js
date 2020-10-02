@@ -91,7 +91,7 @@ class Contact extends Component {
             </div>
             
             <Form onSubmit={this.handleSubmit.bind(this)}>
-                <h1><center>---Functionality coming soon!---</center></h1>
+                <h2><center>---Functionality coming soon!---</center></h2>
                 <FormGroup controlId='formBasicName'>
                     <Label for="name">Your name</Label><br/>
                     <Input 

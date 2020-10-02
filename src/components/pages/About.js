@@ -67,18 +67,23 @@ export default function About() {
                     something else as my career. This was when I was encouraged to try coding. I went to codecademy.com 
                     and followed along with one of their Java tutorials. There was an immediate connection. The fine attention 
                     to detail, trail and error process, and puzzle-solving reminded me so much of what it is like to learn music and 
-                    play an instrument. I felt like so many skills translated from music making to coding. I knew from then on 
+                    play an instrument. I felt that so many skills translated from music making to coding. I knew from then on 
                     that I wanted to pursue a career as a software engineer. At the conclusion of my second year of teaching, 
-                    I started to pursue my Bachelor's in Computer Science.</p>
+                    I started to pursue a Bachelor's of Computer Science at Western Governors University.</p>
             </div>
         </div>
 
         <div className='bio-container-sm'>
             <p>While going to school online, I worked as a freelance oboist and established my oboe reed 
-                making business, Bogdan Reeds. I taught private lessons and master classes at various schools 
-                and continue to sell my oboe reeds to oboists all over the country. Now that I have finished my 
-                computer science degree, I am excited to begin working as a software engineer in the near future!
+                making business, Bogdan Reeds. I taught private lessons and master classes at various schools, 
+                and I continue to sell my oboe reeds to oboists all over the country.
             </p>
+        </div>
+
+        <div className='bio-container-sm'>
+            <h3>Now that I have finished my computer science degree, I am excited to begin 
+                working as a software engineer in the near future!
+            </h3>
         </div>
 
         <div className='button-bar'>
