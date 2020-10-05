@@ -17,6 +17,8 @@ import PrimeNumber from './components/pages/PrimeNumber';
 import Roster from './components/pages/Roster';
 import Chatbot from './components/pages/Chatbot';
 import Hurricane from './components/pages/Hurricane';
+import Website from './components/pages/Website';
+import Maryland from './components/pages/Maryland';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
@@ -41,6 +43,8 @@ function App() {
           <Route path='/roster' exact component={Roster} />
           <Route path='/chatbot' exact component={Chatbot} />
           <Route path='/hurricane' exact component={Hurricane} />
+          <Route path='/website-project' exact component={Website} />
+          <Route path='/maryland' exact component={Maryland} />
         </Switch>
 
         <Footer />

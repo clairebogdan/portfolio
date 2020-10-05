@@ -26,7 +26,7 @@ export default function About() {
         </div>
 
         <div className='bio-container'>
-            <p>Over the past year, I have completed 10 software engineering projects and obtained 
+            <p>Over the past year, I have completed 12 software engineering projects (including this website) and obtained 
                 4 certifications. These projects consist of assignments for my degree program as well 
                 as personal projects (including this website). One of my web applications, PerfectFit, received the 
                 Capstone Certificate of Excellence from WGU for its exemplary work.

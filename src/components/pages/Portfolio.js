@@ -2,6 +2,8 @@ import React from 'react';
 import '../../App.css';
 import '../styles/Portfolio.css';
 import '../styles/Button.css';
+import website from '../../assets/project_pics/website/website-img.jpg'
+import map from '../../assets/project_pics/maryland/map.jpg'
 import saxophone from '../../assets/saxophone.jpg';
 import reeds from '../../assets/reeds.jpg';
 import numbers from '../../assets/numbers.jpg';
@@ -94,6 +96,20 @@ function Portfolio() {
                     <div className="project-item">
                         <h2 className='name'>Hurricane Cleanup</h2>
                         <img src={hurricane} alt='robot simulation' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/website-project'>
+                    <div className="project-item">
+                        <h2 className='name'>clairebogdan.com</h2>
+                        <img src={website} alt='website' width='100%' height='100%'/>
+                    </div>
+                </Link>
+
+                <Link to='/maryland'>
+                    <div className="project-item">
+                        <h2 className='name'>Maryland Spending Data</h2>
+                        <img src={map} alt='map of USA' width='100%' height='100%'/>
                     </div>
                 </Link>
 

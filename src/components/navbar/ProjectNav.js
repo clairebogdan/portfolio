@@ -49,6 +49,14 @@ function ProjectNav() {
                 Hurricane Robot
             </Link>
 
+            <Link to="/website-project" className='project-nav-link'>
+                clairebogdan.com
+            </Link>
+
+            <Link to="/maryland" className='project-nav-link'>
+                Maryland Data
+            </Link>
+
         </nav>
         </>
     );

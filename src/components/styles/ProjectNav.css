@@ -5,7 +5,7 @@
     align-items: center;
     font-size: 0.5rem;
     display: grid;
-    grid-template-columns: repeat(10, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 5px;
     list-style: none;
     text-align: center;
@@ -27,6 +27,7 @@
 @media screen and (max-width: 960px) {
 
     .project-nav {
-        grid-template-columns: repeat(5, auto);
+        grid-template-columns: repeat(4, auto);
+        height: 110px;
     }
 }
