@@ -22,7 +22,7 @@ function InstrumentCalc() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>As a former middle school band director, I know the 
+            <p><span className='bold'>Overview: </span>As a former middle school band director, I know the 
                 importance of having a "balanced" beginning band. Having the correct 
                 number of students on each instrument is important to achieve this balanced sound. 
                 However, the prediction for the number of students joining beginning band constantly 
@@ -31,7 +31,7 @@ function InstrumentCalc() {
                 for their beginner band and calculates how many students should be assigned to each instrument. Using this 
                 application is <i>much</i> faster than doing the calculations by hand. 
                 <br/><br/>
-                <strong>Technical: </strong>This is a Python/Flask web application deployed on Heroku. The user inputs a 
+                <span className='bold'>Technical: </span>This is a Python/Flask web application deployed on Heroku. The user inputs a 
                 number (total number of students that will be in their beginner band) and selects one of the following options:
                 <br/><br/>
                 <strong>Full instrumentation</strong> - uses Scott Rush's "Habits of a Middle School Band Director"  

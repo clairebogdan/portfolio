@@ -28,6 +28,6 @@
 
     .project-nav {
         grid-template-columns: repeat(4, auto);
-        height: 110px;
+        height: 140px;
     }
 }

@@ -22,12 +22,12 @@ function Maryland() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>The goal of this project was to determine the top 3 zip codes where the state of 
+            <p><span className='bold'>Overview: </span>The goal of this project was to determine the top 3 zip codes where the state of 
                 Maryland was spending most of its money in 2015. This information needed to be visually represented on a map with 
                 markers that pinpoint the zip codes. 
 
                 <br/><br/>
-                <strong>Technical: </strong>This web application used NodeJS for the backend, Hapi as the server, Angular 
+                <span className='bold'>Technical: </span>This web application used NodeJS for the backend, Hapi as the server, Angular 
                 for the frontend, Leaflet for the map, and ran as a Docker container. <br/> <br/>
                 First, I had to fetch the data from a government website that contained the state of Maryland's spending data. 
                 This data was in JSON format. I grabbed this data using the module node-fetch. 

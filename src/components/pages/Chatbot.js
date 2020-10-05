@@ -22,14 +22,14 @@ function Chatbot() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>The "WGU Computer Science Career Services Bot" was created to 
+            <p><span className='bold'>Overview: </span>The "WGU Computer Science Career Services Bot" was created to 
                 help a hypothetical Computer Science advisor handle her increase of students. 
                 She had more students than usual, and she was getting too many emails that had very simple answers. To 
                 help decrease her email load, she needed a chatbot to handle many of the common questions that 
                 her students asked her as an advisor. 
 
                 <br/><br/>
-                <strong>Technical: </strong>
+                <span className='bold'>Technical: </span>
                 The chatbot was created using Pandorabots and AIML. Once you type a greeting (like "hello" or "hi") to the chatbot, the chatbot responds 
                 with the following menu options: Take Career Path Quiz, See Career Path Options, Interview 
                 Advice, and Schedule an Appointment. 

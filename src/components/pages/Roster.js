@@ -27,7 +27,7 @@ function Roster() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>Using a given class roster consisting of 5 students, show the following 
+            <p><span className='bold'>Overview: </span>Using a given class roster consisting of 5 students, show the following 
                 information to the user:
                 <br/>
                 All students and their information,
@@ -37,7 +37,7 @@ function Roster() {
                 an updated list of all students, and a search output for the removed student.
 
                 <br/><br/>
-                <strong>Technical: </strong>This C++ application was the first coding project I completed at 
+                <span className='bold'>Technical: </span>This C++ application was the first coding project I completed at 
                 Western Governors University. The program simply prints to the console and 
                 does not require user interaction (other than pressing "run"). This project 
                 demonstrated my knowledge of the basics object oriented programming, writing functions, 

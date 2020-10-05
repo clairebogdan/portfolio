@@ -29,7 +29,7 @@ function PackageDelivery() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: (fictional scenario)</strong>The Western Governors 
+            <p><span className='bold'>Overview: </span>(Fictional scenario) The Western Governors 
                 University Postal Service (WGUPS) is a small package delivery company serving the 
                 Salt Lake City, Utah area. The company has 2 drivers and 3 trucks. Each truck can fit 
                 a maximum of 16 packages. The challenge is for WGUPS to deliver 40 packages to 27 
@@ -37,7 +37,7 @@ function PackageDelivery() {
                 special circumstances, such as: delayed on a flight, wrong address listed, must be on truck 2, 
                 must be delivered on the same truck as other packages.
                 <br/><br/>
-                <strong>Technical: </strong>This application was written in Python. 
+                <span className='bold'>Technical: </span>This application was written in Python. 
                 I used a chaining hash table to store information for the 40 packages. This provided for a faster lookup 
                 when users search for a specific package (O(N)). I used a graph data structure to store the 27
                 locations. The graph had undirected, weighted edges (weight = miles between each location).

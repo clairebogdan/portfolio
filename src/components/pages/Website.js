@@ -20,13 +20,13 @@ function Website() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>At the conclusion of my computer science program, I decided I wanted to build my own 
+            <p><span className='bold'>Overview: </span>At the conclusion of my computer science program, I decided I wanted to build my own 
                 portfolio website from scratch. Previously, I already owned the domain clairebogdan.com and had a Wix website. 
                 Wix, however, was not meeting my needs in terms of customization. I also wanted to get more experience with 
                 web development without using Python/Flask.
 
                 <br/><br/>
-                <strong>Technical: </strong>This website was created using ReactJS. I chose React because I liked how simple 
+                <span className='bold'>Technical: </span>This website was created using ReactJS. I chose React because I liked how simple 
                 it was to get started (with create-react-app). Each page of this website is a JavaScript file with HTML embedded. 
                 The CSS files help format the pages and adjust the sizing for mobile viewing. I used the module react-router-dom 
                 to assist with routing and linking on the website. The Github repository for this website is used by Netlify for 

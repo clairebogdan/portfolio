@@ -42,12 +42,12 @@ function Navbar() {
                 </li>
                 <li className='nav-item'>
                     <a className='nav-links' href="https://www.linkedin.com/in/clairebogdan">
-                        <i class="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li className='nav-item'>
                     <a className='nav-links' href="https://github.com/clairebogdan">
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                     </a>
                 </li>
             </ul>

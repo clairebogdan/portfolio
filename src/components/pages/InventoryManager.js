@@ -22,7 +22,7 @@ function InventoryManager() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>This application helps people/businesses manage their inventory. 
+            <p><span className='bold'>Overview: </span>This application helps people/businesses manage their inventory. 
                 The inventory is categorized into "parts" and "products" where parts make up a product.
                 For example, 
                 a candle company needs wax, fragrance, wicks, and jars (parts) in order to make 
@@ -31,7 +31,7 @@ function InventoryManager() {
                 to the Appointment Manager application.</i>
 
                 <br/><br/>
-                <strong>Technical: </strong>This Java/JavaFX application was built using NetBeans. The GUI 
+                <span className='bold'>Technical: </span>This Java/JavaFX application was built using NetBeans. The GUI 
                 was constructed via SceneBuilder. This application does not have a database; 
                 instead, parts and products are Java objects. Upon loading, the initial parts 
                 and products that are shown are hard coded into the application. Additions, modifications, 

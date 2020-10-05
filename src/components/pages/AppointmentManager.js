@@ -22,7 +22,7 @@ function AppointmentManager() {
 
             <div className='description-box'>
                 <h2><center>Description:</center></h2>
-                <p><strong>Overview: </strong>This application helps people or
+                <p><span className='bold'>Overview: </span>This application helps people or
                 businesses manage their appointments with their customers. Users are required to 
                 login using credentials that match the database. Once logged in, the user can see 
                 a list of scheduled appointments for specific customers. Users are able to
@@ -30,7 +30,7 @@ function AppointmentManager() {
                 modify or delete existing appointments, and create reports.
 
                 <br/><br/>
-                <strong>Technical: </strong>This Java/JavaFX application was built using NetBeans. The GUI 
+                <span className='bold'>Technical: </span>This Java/JavaFX application was built using NetBeans. The GUI 
                 was constructed via SceneBuilder. When the user runs the application, the local 
                 computer's language is detected. If the computer's language is set to Spanish, the login screen 
                 will translate itself to Spanish. Otherwise, the text will be in English. When logging in, the 

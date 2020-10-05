@@ -28,13 +28,13 @@ function PrimeNumber() {
 
             <div className='description-box'>
                 <h2><center>Description:</center></h2>
-                <p><strong>Overview: </strong>Prime numbers are natural numbers that 
+                <p><span className='bold'>Overview: </span>Prime numbers are natural numbers that 
                     are only divisible by 1 and themselves. 
                     The Prime Number Generator returns an ordered list of all prime numbers in a 
                     given range (inclusive of the endpoints).
                     The program can handle inverse ranges such as that 1-10 and 10-1 are equivalent. 
                     <br/><br/>
-                    <strong>Technical: </strong>This Java CLI application allows the user to enters their 
+                    <span className='bold'>Technical: </span>This Java CLI application allows the user to enters their 
                     starting and ending values (range) in the command line. The program accounts for 
                     user error, allowing the user to try again or purposefully exit the program upon unacceptable 
                     input values. JUnit tests were created to make sure that the prime numbers that were generated 

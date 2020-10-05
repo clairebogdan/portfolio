@@ -9,7 +9,7 @@ import perfectFitImg from '../../assets/project_pics/perfectfit/perfectFitImg.pn
 function PerfectFit() {
 
     return (
-        <>
+        
         <body>
         <div className='project-top'>
             <h1>PerfectFit</h1>
@@ -29,7 +29,7 @@ function PerfectFit() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>PerfectFit is a fictional company that seeks to match people to their ideal 
+            <p><span className='bold'>Overview: </span>PerfectFit is a fictional company that seeks to match people to their ideal 
                 career — or “perfect fit” — based on their personality.
                 In order to achieve this goal, I used a dataset from Kaggle.com that 
                 observed a group of people’s Myers-Briggs personality types, careers, and 
@@ -41,7 +41,7 @@ function PerfectFit() {
                 how satisfied they would be at 43 different jobs.
 
                 <br/><br/>
-                <strong>Technical: </strong>PerfectFit's website was built using Python/Flask and deployed using Heroku. 
+                <span className='bold'>Technical: </span>PerfectFit's website was built using Python/Flask and deployed using Heroku. 
                 The data analysis (Principal Component Analysis) was conducted using Pandas and Jupyter Notebook, 
                 then transferred to the main development IDE (PyCharm). The data visualizations seen on the Home page 
                 were constructed using ChartJS and d3.js. In order to find out what career is your "perfect fit", 
@@ -106,7 +106,7 @@ function PerfectFit() {
         <ProjectNav />
 
         </body>
-        </>
+        
         );
     }
 export default PerfectFit;

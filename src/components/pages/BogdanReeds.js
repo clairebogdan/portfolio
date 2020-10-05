@@ -28,7 +28,7 @@ function BogdanReeds() {
 
         <div className='description-box'>
             <h2><center>Description:</center></h2>
-            <p><strong>Overview: </strong>As a freelance oboist, I make and sell oboe reeds to 
+            <p><span className='bold'>Overview: </span>As a freelance oboist, I make and sell oboe reeds to 
                 oboists across the US. When someone wants to order oboe reeds, it is important 
                 that I know some information about the person that will use the reeds. I need to 
                 know the customer's name, how many reeds they would like, how long the oboist has been playing, 
@@ -37,7 +37,8 @@ function BogdanReeds() {
                 ship them. This program allows the user to "order" oboe reeds from my 
                 company, Bogdan Reeds. 
                 <br/><br/>
-                <strong>Technical: </strong>This is a Java CLI application. 
+                
+                <span className='bold'>Technical: </span>This is a Java CLI application. 
                 Via the command line, the customer inputs their answers 
                 to the questions. The program uses try-catch blocks to prevent the 
                 program from crashing when the user enters invalid information. 
