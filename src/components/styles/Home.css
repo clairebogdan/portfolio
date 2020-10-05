@@ -3,7 +3,8 @@ body {
 }
 
 .headshot {
-  background: url('../../assets/headshot.jpg') 0 0 no-repeat / cover;
+  background: url('../../assets/headshot.jpg') 0 0 no-repeat;
+  background-size: cover;
   padding-bottom: 65.89%;
   height: 0;
   text-align: center;

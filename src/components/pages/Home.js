@@ -10,7 +10,7 @@ export default function Home() {
         <div className='mobile-headshot'>
             <img src={mobile_headshot} alt='headshot' width='100%' height='100%'/>
         </div>
-
+ 
         <div className='mobile-container'>
             <div className='mobile-text'>
                 <h2><i class="fas fa-laptop-code"></i> Software Engineer<br/><br/>
