@@ -36,10 +36,10 @@ function InstrumentCalc() {
                 <br/><br/>
                 <strong>Full instrumentation</strong> - uses Scott Rush's "Habits of a Middle School Band Director"  
                 instrumentation percentages
-                <br/>
+                <br/><br/>
                 <strong>Reduced instrumentation</strong> - does not include 
                 specialty instruments
-                <br/>
+                <br/><br/>
                 <strong>Categorical instrumentation</strong> - only includes general instrument categories
                 <br/><br/>
                 When the user clicks submit, the instrumentation is calculated and is shown to the user. 

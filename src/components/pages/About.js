@@ -26,7 +26,7 @@ export default function About() {
         </div>
 
         <div className='bio-container'>
-            <p>Over the past year, I have completed 12 software engineering projects (including this website) and obtained 
+            <p>Over the past year, I have completed 12 software engineering projects and obtained 
                 4 certifications. These projects consist of assignments for my degree program as well 
                 as personal projects (including this website). One of my web applications, PerfectFit, received the 
                 Capstone Certificate of Excellence from WGU for its exemplary work.
@@ -47,7 +47,7 @@ export default function About() {
                 <h2>My career change story...</h2><br/>
                 <p>I started playing the oboe in the 6th grade. I loved playing the oboe and being in band. 
                     I continued to play in high school, participating in state and national level performing 
-                    ensembles. Because of my passion in music, I decided to major in Music Education with a 
+                    ensembles. Because of my passion for music, I decided to major in Music Education with a 
                     Performance Certificate in Oboe at the University of South Carolina (UofSC). While at UofSC, I was the principal 
                     oboist of the Wind Ensemble as well as the Drum Major for the marching band (the Carolina Band). 
                     Upon graduation in May 2017, I went on to be a public middle school band director for 
@@ -66,17 +66,18 @@ export default function About() {
                     deciding to leave teaching. I still loved teaching and performing, but I knew I needed to do 
                     something else as my career. This was when I was encouraged to try coding. I went to codecademy.com 
                     and followed along with one of their Java tutorials. There was an immediate connection. The fine attention 
-                    to detail, trail and error process, and puzzle-solving reminded me so much of what it is like to learn music and 
-                    play an instrument. I felt that so many skills translated from music making to coding. I knew from then on 
-                    that I wanted to pursue a career as a software engineer. At the conclusion of my second year of teaching, 
+                    to detail, trial and error process, and puzzle-solving reminded me so much of what it is like to learn how to play 
+                    a new instrument. I felt that so many skills translated from music making to coding. I knew from then on 
+                    that I wanted become a software engineer. At the conclusion of my second year of teaching, 
                     I started to pursue a Bachelor's of Computer Science at Western Governors University.</p>
             </div>
         </div>
 
         <div className='bio-container-sm'>
             <p>While going to school online, I worked as a freelance oboist and established my oboe reed 
-                making business, Bogdan Reeds. I taught private lessons and master classes at various schools, 
-                and I continue to sell my oboe reeds to oboists all over the country.
+                making business, <a className="facebook" href="https://www.facebook.com/bogdanreeds">Bogdan Reeds</a>. I taught private lessons and master classes at various schools, 
+                performed in the Charleston Wind Symphony, and sold my hand-made oboe reeds. 
+                I continue to make and sell my reeds to oboists all over the country.
             </p>
         </div>
 
