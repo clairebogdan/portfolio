@@ -19,9 +19,7 @@ export default function About() {
                 <img src={computer} alt="computer" width="100%" height="100%"/>
             </div>
             <div className='bio-text'>
-                <h2>Hi, I'm Claire Bogdan! I am a recent computer science graduate from 
-                Western Governors University (September 2020). I am actively searching for 
-                software engineering opportunities in the Columbus, Ohio area. </h2>
+                <h2>Hi, I'm Claire Bogdan! I am a Software Engineer in Columbus, Ohio. </h2>
             </div>
         </div>
 
@@ -82,8 +80,9 @@ export default function About() {
         </div>
 
         <div className='bio-container-sm'>
-            <h3>Now that I have finished my computer science degree, I am excited to begin 
-                working as a software engineer in the near future!
+            <h3>I finished my computer science degree in September, 2020, and am currently a Software 
+                Engineer in Columbus, Ohio. Outside of work, I enjoy spending time outside with my partner and 
+                our standard poodle, Boone.
             </h3>
         </div>
 
