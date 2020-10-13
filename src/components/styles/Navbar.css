@@ -56,7 +56,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    
+
     .navbar-items {
         position: relative;
     }
@@ -109,7 +109,7 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
-    
+
     .fa-times {
         color: #fff;
         font-size: 2rem;

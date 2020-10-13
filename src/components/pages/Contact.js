@@ -3,7 +3,7 @@ import '../../App.css';
 import '../styles/Contact.css';
 import '../styles/Button.css';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import * as emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import Clipboard from 'clipboard';
 
 const clip = new Clipboard('.copy');
@@ -18,27 +18,25 @@ class Contact extends Component {
 
     
     state = {
-        name: '',
-        email: '',
-        subject: '',
+        from_name: '',
+        from_email: '',
         message: ''
     }
 
     handleSubmit(e) {
         e.preventDefault()
 
-        const { name, subject, message } = this.state
+        const { from_name, from_email, message } = this.state
 
         let templateParams = {
-            from_name: name,
-            to_name: 'bogdanclaire@gmail.com',
-            subject: subject,
-            message_html: message
+            from_name: from_name,
+            from_email: from_email,
+            message: message
         }
 
         emailjs.send(
-            'gmail',
-            'template_ok4gegk',
+            'clairebogdan',
+            'clairebogdan',
             templateParams,
             'user_jS6RUTjj8a1tc2Yozo8kf'
         ).then((response) => {
@@ -55,7 +53,6 @@ class Contact extends Component {
         this.setState({
             name: '',
             email: '',
-            subject: '',
             message: ''
         })
     }
@@ -91,37 +88,25 @@ class Contact extends Component {
             </div>
             
             <Form onSubmit={this.handleSubmit.bind(this)}>
-                <h2><center>---Functionality coming soon!---</center></h2>
                 <FormGroup controlId='formBasicName'>
-                    <Label for="name">Your name</Label><br/>
+                    <Label for="from_name">Your name</Label><br/>
                     <Input 
                         type="text" 
-                        name="name" 
+                        name="from_name" 
                         id="name" 
                         value={this.state.name}
-                        onChange={this.handleChange.bind(this, 'name')}/>
+                        onChange={this.handleChange.bind(this, 'from_name')}/>
                 </FormGroup>
                 <br/>
 
                 <FormGroup controlId='formBasicEmail'>
-                    <Label for="email">Your email</Label><br/>
+                    <Label for="from_email">Your email</Label><br/>
                     <Input 
                         type="email" 
-                        name="email" 
+                        name="from_email" 
                         id="email"
                         value={this.state.email}
-                        onChange={this.handleChange.bind(this, 'email')} />
-                </FormGroup>
-                <br/>
-
-                <FormGroup controlId='formBasicSubject'>
-                    <Label for="subject">Subject</Label><br/>
-                    <Input 
-                        type="text" 
-                        name="subject" 
-                        id="subject" 
-                        value={this.state.subject}
-                        onChange={this.handleChange.bind(this, 'subject')}/>
+                        onChange={this.handleChange.bind(this, 'from_email')} />
                 </FormGroup>
                 <br/>
 
