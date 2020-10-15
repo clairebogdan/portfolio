@@ -10,7 +10,7 @@ function BogdanReeds() {
         <>
         <body>
         <div className='project-top'>
-            <h1>Bogdan Reeds Ordering</h1>
+            <h1>Oboe Reed Ordering</h1>
             <h2>CLI Application</h2>
         </div>
 
@@ -35,15 +35,15 @@ function BogdanReeds() {
                 their shipping address, their shipping method, and their payment 
                 method. Once I have this information, I am able to make the customer's reed(s) and 
                 ship them. This program allows the user to "order" oboe reeds from my 
-                company, Bogdan Reeds. 
+                company, Bogdan Reeds.
                 <br/><br/>
                 
                 <span className='bold'>Technical: </span>This is a Java CLI application. 
                 Via the command line, the customer inputs their answers 
                 to the questions. The program uses try-catch blocks to prevent the 
                 program from crashing when the user enters invalid information. 
-                <i>This program will be expanded to become a website 
-                and web application.</i>
+                <i> This program concept has been fully implemented via </i>
+                <a href="https://www.bogdanreeds.com">bogdanreeds.com</a>.
             </p>
         </div>
 

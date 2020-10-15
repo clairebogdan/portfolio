@@ -6,6 +6,7 @@ import website from '../../assets/project_pics/website/website-img.jpg'
 import map from '../../assets/project_pics/maryland/map.jpg'
 import saxophone from '../../assets/saxophone.jpg';
 import reeds from '../../assets/reeds.jpg';
+import bogdanreeds from '../../assets/project_pics/bogdanreeds/bogdanreeds.jpg';
 import numbers from '../../assets/numbers.jpg';
 import appointments from '../../assets/appointments.png';
 import delivery from '../../assets/delivery.png';
@@ -43,9 +44,16 @@ function Portfolio() {
                     </div>
                 </Link>
 
+                <Link to='/bogdanreeds-web'>
+                <div className="project-item">
+                    <h2 className='name'>bogdanreeds.com</h2>
+                    <img src={bogdanreeds} alt='oboe reed and thread' width='100%' height='100%'/>
+                </div>
+                </Link>
+
                 <Link to='/bogdanreeds'>
                 <div className="project-item">
-                    <h2 className='name'>Bogdan Reeds Ordering</h2>
+                    <h2 className='name'>Oboe Reed Ordering</h2>
                     <img src={reeds} alt='oboe reed and thread' width='100%' height='100%'/>
                 </div>
                 </Link>

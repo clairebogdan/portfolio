@@ -19,6 +19,7 @@ import Chatbot from './components/pages/Chatbot';
 import Hurricane from './components/pages/Hurricane';
 import Website from './components/pages/Website';
 import Maryland from './components/pages/Maryland';
+import BogdanReedsWeb from './components/pages/BogdanReedsWeb';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           <Route path='/hurricane' exact component={Hurricane} />
           <Route path='/website-project' exact component={Website} />
           <Route path='/maryland' exact component={Maryland} />
+          <Route path='/bogdanreeds-web' exact component={BogdanReedsWeb} />
         </Switch>
 
         <Footer />

@@ -18,7 +18,11 @@ function ProjectNav() {
             </Link>
 
             <Link to="/bogdanreeds" className='project-nav-link'>
-                Bogdan Reeds
+                bogdanreeds.com
+            </Link>
+
+            <Link to="/bogdanreeds" className='project-nav-link'>
+                Reed Order
             </Link>
 
             <Link to="/packagedelivery" className='project-nav-link'>
