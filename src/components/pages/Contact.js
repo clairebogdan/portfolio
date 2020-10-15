@@ -40,10 +40,10 @@ class Contact extends Component {
             templateParams,
             'user_jS6RUTjj8a1tc2Yozo8kf'
         ).then((response) => {
-            console.log("Success!", response.status, response.text);
+            alert("Your message was sent to Claire!");
         },
         (err) => {
-            console.log("failed...", err);
+            alert("Error: " + err.text);
         });
 
         this.resetForm()
