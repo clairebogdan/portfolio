@@ -73,7 +73,7 @@ export default function About() {
 
         <div className='bio-container-sm'>
             <p>While going to school online, I worked as a freelance oboist and established my oboe reed 
-                making business, <a className="facebook" href="https://www.facebook.com/bogdanreeds">Bogdan Reeds</a>. I taught private lessons and master classes at various schools, 
+                making business, <a className="facebook" href="https://www.bogdanreeds.com">Bogdan Reeds</a>. I taught private lessons and master classes at various schools, 
                 performed in the Charleston Wind Symphony, and sold my hand-made oboe reeds. 
                 I continue to make and sell my reeds to oboists all over the country.
             </p>
