@@ -3,7 +3,7 @@ import '../../App.css';
 import '../styles/About.css';
 import { Link } from 'react-router-dom';
 import resume from '../../assets/resume.pdf';
-import computer from '../../assets/about_pics/computer.jpg'
+import face from '../../assets/about_pics/face.jpg'
 import oboe2 from '../../assets/about_pics/oboe2.jpg'
 import plaques from '../../assets/about_pics/plaques.jpg'
 
@@ -16,10 +16,12 @@ export default function About() {
 
         <div className='bio'>
             <div className='bio-pic'>
-                <img src={computer} alt="computer" width="100%" height="100%"/>
+                <img src={face} alt="claire bogdan herself" width="100%" height="100%"/>
             </div>
-            <div className='bio-text'>
-                <h2>Hi, I'm Claire Bogdan! I am a Software Engineer in Columbus, Ohio. </h2>
+            <div className='bio-intro'>
+                <h1>Hi, I'm Claire Bogdan!</h1>
+                <br/>
+                <h2>I am a Software Engineer in Columbus, Ohio.</h2>
             </div>
         </div>
 

@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+.bio-intro {
+    font-size: 35px;
+}
+
 .bio-text {
     font-size: 17px;  
 }
@@ -27,6 +31,7 @@ body {
 .facebook {
     text-decoration: none;
 }
+
 .bio-container {
     margin: 5%;
     font-size: 20px; 
@@ -86,10 +91,18 @@ body {
     .bio {
         grid-template-columns: 100%;
     }
+
+    .bio-intro {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     
+    .bio-intro {
+        font-size: 20px;
+    }
+
     .button-bar {
         display: grid;
         grid-template-columns: 100%;
