@@ -1,8 +1,8 @@
 # Claire Bogdan Portfolio
 
-This website was created with React and deployed with Netlify. This github repo is connected to Netlify. `git push` will deploy the website.
+This website was created with React and deployed with Netlify.
 
-## Available Scripts
+## Available Scripts (for my own reference)
 
 In the project directory, you can run:
 

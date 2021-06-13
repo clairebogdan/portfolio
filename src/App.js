@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer";
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home'
 import About from './components/pages/About'
@@ -20,6 +20,8 @@ import Hurricane from './components/pages/Hurricane';
 import Website from './components/pages/Website';
 import Maryland from './components/pages/Maryland';
 import BogdanReedsWeb from './components/pages/BogdanReedsWeb';
+import Immuta from './components/pages/Immuta';
+import PreviousCareer from './components/pages/PreviousCareer';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
@@ -30,7 +32,7 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route path='/' exact component={Home}/>
+          <Route path='/' exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/portfolio' exact component={Portfolio} />
           <Route path='/contact' exact component={Contact} />
@@ -47,10 +49,12 @@ function App() {
           <Route path='/website-project' exact component={Website} />
           <Route path='/maryland' exact component={Maryland} />
           <Route path='/bogdanreeds-web' exact component={BogdanReedsWeb} />
+          <Route path='/immuta' exact component={Immuta} />
+          <Route path='/previous-career' exact component={PreviousCareer} />
         </Switch>
 
         <Footer />
-        
+
       </ScrollToTop>
     </Router>
   )

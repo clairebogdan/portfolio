@@ -6,6 +6,30 @@
     display: grid;
 }
 
+.experience-grid {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.experience-item {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.experience-item:hover {
+    padding: 5px 5px;
+    transition: all 0.3s ease-out;
+    background: rgb(227, 244, 255);
+    color: #000;
+    transition: 250ms;
+    visibility: visible;
+}
+
 .project-grid {
     display: grid;
     width: 800px;
