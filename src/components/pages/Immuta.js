@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectNav from '../navbar/ProjectNav';
 import '../styles/ProjectItems.css'
 
 function Immuta() {
@@ -9,7 +8,6 @@ function Immuta() {
             <body>
                 <p>Immuta experience coming soon</p>
 
-                <ProjectNav />
 
             </body>
 

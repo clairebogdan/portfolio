@@ -1,5 +1,7 @@
 body {
     overflow-x: hidden;
+    background: linear-gradient(90deg, rgb(24, 19, 68) 0%, rgb(0, 0, 0) 100%);
+    color: white;
 }
 
 .about-title {
@@ -28,13 +30,19 @@ body {
     font-size: 17px;  
 }
 
-.facebook {
+.link {
+    color: #8185fd;
     text-decoration: none;
 }
 
+.link:hover {
+    color: white;
+}
+
+
 .bio-container {
     margin: 5%;
-    font-size: 20px; 
+    font-size: 17px; 
 }
 
 .bio-container-sm {

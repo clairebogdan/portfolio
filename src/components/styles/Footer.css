@@ -4,7 +4,7 @@
     height: 8vh;
     align-items: center;
     justify-content: center;
-    background-color: #111344;
+    background: linear-gradient(90deg, rgb(24, 19, 68) 0%, rgb(0, 0, 0) 100%);
     color: #6d6d6d;
     
   }

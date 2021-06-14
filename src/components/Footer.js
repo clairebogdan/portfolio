@@ -5,9 +5,9 @@ function Footer() {
 
     return (
         <>
-        <div className='footer'>
-           <h4 className='footerText'>Claire Bogdan 2020 <i className="far fa-copyright"></i></h4>
-        </div>
+            <div className='footer'>
+                <h4 className='footerText'>Claire Bogdan 2021 <i className="far fa-copyright"></i></h4>
+            </div>
         </>
     );
 }
