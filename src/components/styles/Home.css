@@ -15,7 +15,7 @@ body {
 
 .home-item {
   float: left;
-  height: 500px;
+  height: 600px;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
@@ -32,7 +32,9 @@ body {
 }
 
 .home-picture {
-  margin: 5%;
+  padding: 5%;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .mobile-headshot {
