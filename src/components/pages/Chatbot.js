@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import chatbotVideo from '../../assets/project_pics/chatbot/ChatbotVideo.mp4'
 
 function Chatbot() {
@@ -8,19 +9,23 @@ function Chatbot() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Career Advisor Chatbot</h1>
-                    <h2>Pandorabots Chatbot</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='50%' height='50%' controls>
-                        <source src={chatbotVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/roster' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Career Advisor Chatbot</h1>
+                        <h2>Pandorabots Chatbot</h2>
+                    </div>
+                    <div>
+                        <Link to='/hurricane' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>The "WGU Computer Science Career Services Bot" was created to
                         help a hypothetical Computer Science advisor handle her increase of students.
                         She had more students than usual, and she was getting too many emails that had very simple answers. To
@@ -51,6 +56,12 @@ function Chatbot() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='50%' height='50%' controls>
+                        <source src={chatbotVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -65,7 +76,13 @@ function Chatbot() {
                         <a className='btn-sm' href="https://drive.google.com/file/d/1tVEp0guZ-6Qn2QsW-SDrWwp7dcTGTq-r/view?usp=sharing">Documentation</a>
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
         </>
     );

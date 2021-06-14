@@ -1,7 +1,12 @@
 .project-top {
+    display: grid;
     text-align: center;
     padding: 5%;
     background-color:#d3d4ff;
+    width: 100%;
+    grid-template-columns: 10% 80% 10%;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-img {
@@ -11,6 +16,29 @@
     margin: 0 auto;
     max-width: 1000px;
 }
+
+.pointer {
+    font-size: 30px;
+    color: white;
+}
+
+.portfolio-button {
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #8185fd;
+}
+
+.portfolio-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-button:visited {
+    color: #8185fd;
+    text-decoration: none;
+}
+
 
 .img-grid {
     display: grid;
@@ -73,6 +101,7 @@
     font-size: 21px;
     padding: 10px 10px;
     margin: 4px 4px;
+    color: black;
 }
 
 .tool-framework {
@@ -82,6 +111,7 @@
     font-size: 21px;
     padding: 10px 10px;
     margin: 4px 4px;
+    color: black;
 }
 
 .tool-deploy {
@@ -91,6 +121,7 @@
     font-size: 21px;
     padding: 10px 10px;
     margin: 4px 4px;
+    color: black;
 }
 
 .tool-database {
@@ -100,6 +131,7 @@
     font-size: 21px;
     padding: 10px 10px;
     margin: 4px 4px;
+    color: black;
 }
 
 .tool-ide {
@@ -109,6 +141,7 @@
     font-size: 21px;
     padding: 10px 10px;
     margin: 4px 4px;
+    color: black;
 }
 
 .link-grid {

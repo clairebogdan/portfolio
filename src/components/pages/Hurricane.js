@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import hurricaneBotVideo from '../../assets/project_pics/hurricane/hurricaneBotVideo.mp4'
 import AIAward from '../../assets/project_pics/hurricane/AIAward.png'
 
@@ -11,19 +12,23 @@ function Hurricane() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Hurricane Cleanup Robot Simulation</h1>
-                    <h2>CoppeliaSim Simulation</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='80%' height='80%' controls>
-                        <source src={hurricaneBotVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/chatbot' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Hurricane Cleanup Robot Simulation</h1>
+                        <h2>CoppeliaSim Simulation</h2>
+                    </div>
+                    <div>
+                        <Link to='/website-project' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>(Fictional scenario) Hurricane Catherine (Category 5) severely damaged the coast of Charleston, South Carolina.
                         There are multiple fallen trees, downed powerlines, and large pieces of debris in the coastal
                         communities. The iClean robot’s task is to clean up small pieces of
@@ -46,6 +51,12 @@ function Hurricane() {
                         cubiods to the scene to represent downed powerlines, trees, and large debris objects. The iClean has cameras
                         that allow the user to see the scene from the iClean's point of view. The iClean moves automatically and avoids
                         bumping into debris.</p>
+                </div>
+
+                <div className='project-img'>
+                    <video width='80%' height='80%' controls>
+                        <source src={hurricaneBotVideo} type="video/mp4" />
+                    </video>
                 </div>
 
                 <div className='award'>
@@ -89,7 +100,13 @@ function Hurricane() {
                         <a className='btn-sm' href="https://drive.google.com/file/d/1DISUXFLovLnZxd77woRtjcGHCS6DLDps/view?usp=sharing">Documentation</a>
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
         </>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import appointmentVideo from '../../assets/project_pics/appointment/appointmentVideo.mp4'
 
 function AppointmentManager() {
@@ -8,19 +9,23 @@ function AppointmentManager() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Appointment Manager</h1>
-                    <h2>GUI Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='80%' height='80%' controls>
-                        <source src={appointmentVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/packagedelivery' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Appointment Manager</h1>
+                        <h2>GUI Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/inventorymanager' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>This application helps people or
                         businesses manage their appointments with their customers. Users are required to
                         login using credentials that match the database. Once logged in, the user can see
@@ -43,6 +48,12 @@ function AppointmentManager() {
                         database and shows the results to the user in a textarea.</p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='80%' height='80%' controls>
+                        <source src={appointmentVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -61,7 +72,13 @@ function AppointmentManager() {
                         <a className='btn-sm' href="https://drive.google.com/file/d/1gQlAtX8Cn2mVTpVP_KY5dF_aOzgfEdoX/view?usp=sharing">Documentation</a>
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
 
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import perfectFitVideo from '../../assets/project_pics/perfectfit/perfectFitVideo.mp4'
 import PFaward from '../../assets/project_pics/perfectfit/PFaward.png'
-import perfectFitImg from '../../assets/project_pics/perfectfit/perfectFitImg.png'
 
 
 function PerfectFit() {
@@ -11,23 +11,23 @@ function PerfectFit() {
 
         <body>
             <div className='project-top'>
-                <h1>PerfectFit</h1>
-                <h2>Website and Web Application</h2>
-            </div>
-
-            <div className='project-img'>
-                <img src={perfectFitImg} alt="perfectfit logo" width='40%' height='40%' />
-            </div>
-
-            <div className='project-img'>
-                <h3>Press the play button</h3>
-                <video width='85%' height='85%' controls>
-                    <source src={perfectFitVideo} type="video/mp4" />
-                </video>
+                <div>
+                    <Link to='/maryland' className="pointer">
+                        <i class="fas fa-chevron-left"></i>
+                    </Link>
+                </div>
+                <div>
+                    <h1>PerfectFit</h1>
+                    <h2>Website and Web Application</h2>
+                </div>
+                <div>
+                    <Link to='/instrumentcalc' className="pointer">
+                        <i class="fas fa-chevron-right"></i>
+                    </Link>
+                </div>
             </div>
 
             <div className='description-box'>
-                <h2><center>Description:</center></h2>
                 <p><span className='bold'>Overview: </span>PerfectFit is a fictional company that seeks to match people to their ideal
                     career — or “perfect fit” — based on their personality.
                     In order to achieve this goal, I used a dataset from Kaggle.com that
@@ -51,6 +51,12 @@ function PerfectFit() {
                     predicts satisfaction at each of the 43 jobs on a scale of 0 - 1 for a particular personality. Finally,
                     the user will see their Myers-Briggs personality type and their predicted satisfaction at each job.
                 </p>
+            </div>
+
+            <div className='project-img'>
+                <video width='85%' height='85%' controls>
+                    <source src={perfectFitVideo} type="video/mp4" />
+                </video>
             </div>
 
             <div className='award'>
@@ -101,7 +107,13 @@ function PerfectFit() {
                     <a className='btn-sm' href="https://drive.google.com/file/d/1e_SYjYdKVa6cWnmpoFJREmEoC1Jhodhj/view?usp=sharing">Documentation</a>
                 </div>
             </div>
-
+            <div className='portfolio-button'>
+                <Link to='/portfolio'>
+                    <div className='portfolio-button'>
+                        Back to Portfolio
+                    </div>
+                </Link>
+            </div>
         </body>
 
     );

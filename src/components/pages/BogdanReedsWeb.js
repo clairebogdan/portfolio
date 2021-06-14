@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import bogdanreedsWebsiteVideo from '../../assets/project_pics/bogdanreeds/bogdanreedsWebsiteVideo.mp4'
 
 function BogdanReedsWeb() {
@@ -8,19 +9,23 @@ function BogdanReedsWeb() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>bogdanreeds.com</h1>
-                    <h2>Website</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='85%' height='85%' controls>
-                        <source src={bogdanreedsWebsiteVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/instrumentcalc' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>bogdanreeds.com</h1>
+                        <h2>Website</h2>
+                    </div>
+                    <div>
+                        <Link to='/bogdanreeds' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>This project is the continuation/implementation
                         of the original Oboe Reed Ordering CLI application. Even though I am a full-time software
                         engineer, I enjoy making and selling oboe reeds in my spare time. I started selling reeds
@@ -43,6 +48,12 @@ function BogdanReedsWeb() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='85%' height='85%' controls>
+                        <source src={bogdanreedsWebsiteVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -62,7 +73,13 @@ function BogdanReedsWeb() {
                         <a href="https://github.com/clairebogdan/bogdanreeds_website" className='btn-sm'>GitHub Repo</a>
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
 
         </>

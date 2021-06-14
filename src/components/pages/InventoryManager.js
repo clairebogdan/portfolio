@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import inventoryVideo from '../../assets/project_pics/inventory/inventoryVideo.mp4'
 
 function InventoryManager() {
@@ -8,19 +9,23 @@ function InventoryManager() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Inventory Manager</h1>
-                    <h2>GUI Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='85%' height='85%' controls>
-                        <source src={inventoryVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/appointmentmanager' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Inventory Manager</h1>
+                        <h2>GUI Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/primenumber' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>This application helps people/businesses manage their inventory.
                         The inventory is categorized into "parts" and "products" where parts make up a product.
                         For example,
@@ -39,6 +44,12 @@ function InventoryManager() {
                         are removed.</p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='85%' height='85%' controls>
+                        <source src={inventoryVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -55,8 +66,13 @@ function InventoryManager() {
                         <a className='btn-sm' href="https://github.com/clairebogdan/C482_Project">GitHub Repo</a>
                     </div>
                 </div>
-
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
         </>
     );

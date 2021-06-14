@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
-import packages from '../../assets/project_pics/package_delivery/packages.jpg'
+import { Link } from 'react-router-dom';
 import packageDeliveryVideo from '../../assets/project_pics/package_delivery/packageDeliveryVideo.mp4'
 
 function PackageDelivery() {
@@ -9,25 +9,24 @@ function PackageDelivery() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Package Delivery</h1>
-                    <h2>Based on the "Traveling Salesman Problem"</h2>
-                    <h2>CLI Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <div className='blank'></div>
-                    <img src={packages} alt="boxes in a delivery truck" width='80%' height='80%' />
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='80%' height='80%' controls>
-                        <source src={packageDeliveryVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/bogdanreeds' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Package Delivery</h1>
+                        <h2>Based on the "Traveling Salesman Problem"</h2>
+                        <h2>CLI Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/appointmentmanager' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>(Fictional scenario) The Western Governors
                         University Postal Service (WGUPS) is a small package delivery company serving the
                         Salt Lake City, Utah area. The company has 2 drivers and 3 trucks. Each truck can fit
@@ -74,6 +73,13 @@ function PackageDelivery() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <h3>Press the play button</h3>
+                    <video width='80%' height='80%' controls>
+                        <source src={packageDeliveryVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -88,8 +94,13 @@ function PackageDelivery() {
                         <a className='btn-sm' href="https://drive.google.com/file/d/1r3MuCtFXhWEFoWj9-9KH3P5A_7Bu8_Ql/view?usp=sharing">Documentation</a>
                     </div>
                 </div>
-
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
 
         </>

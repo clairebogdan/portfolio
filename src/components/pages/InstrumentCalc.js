@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css';
+import { Link } from 'react-router-dom';
 import instrumentCalcVideo from '../../assets/project_pics/instrumentcalc/instrumentCalcVideo.mp4'
 
 function InstrumentCalc() {
@@ -8,19 +9,23 @@ function InstrumentCalc() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Beginner Band Instrumentation Calculator</h1>
-                    <h2>Web Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='85%' height='85%' controls>
-                        <source src={instrumentCalcVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/perfectfit' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Beginner Band Instrumentation Calculator</h1>
+                        <h2>Web Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/bogdanreeds-web' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>As a former middle school band director, I know the
                         importance of having a "balanced" beginning band. Having the correct
                         number of students on each instrument is important to achieve this balanced sound.
@@ -45,6 +50,11 @@ function InstrumentCalc() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='85%' height='85%' controls>
+                        <source src={instrumentCalcVideo} type="video/mp4" />
+                    </video>
+                </div>
 
                 <div className='tools-links'>
 
@@ -65,8 +75,13 @@ function InstrumentCalc() {
                         <a href="https://github.com/clairebogdan/Beginner_Instrumentation_Calculator" className='btn-sm'>GitHub Repo</a>
                     </div>
                 </div>
-
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
         </>
     );

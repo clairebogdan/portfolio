@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
+import { Link } from 'react-router-dom';
 import mapVideo from '../../assets/project_pics/maryland/mapVideo.mp4'
 
 function Maryland() {
@@ -8,19 +9,23 @@ function Maryland() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Maryland Spending Data</h1>
-                    <h2>Web Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='80%' height='80%' controls>
-                        <source src={mapVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/website-project' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Maryland Spending Data</h1>
+                        <h2>Web Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/perfectfit' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>The goal of this project was to determine the top 3 zip codes where the state of
                         Maryland was spending most of its money in 2015. This information needed to be visually represented on a map with
                         markers that pinpoint the zip codes.
@@ -43,6 +48,12 @@ function Maryland() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='80%' height='80%' controls>
+                        <source src={mapVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -63,7 +74,13 @@ function Maryland() {
 
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
         </>
     );

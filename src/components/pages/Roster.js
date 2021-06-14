@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
-import students from '../../assets/project_pics/roster/students.jpg'
+import { Link } from 'react-router-dom';
 import rosterOutput from '../../assets/project_pics/roster/rosterOutput.png'
 
 
@@ -10,22 +10,23 @@ function Roster() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Student Roster</h1>
-                    <h2>CLI Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <div className='blank'></div>
-                    <img src={students} alt="students in a classroom" width='80%' height='80%' />
-                </div>
-
-                <div className='project-img'>
-                    <h3>Program output:</h3>
-                    <img src={rosterOutput} alt="code output" width='80%' height='80%' />
+                    <div>
+                        <Link to='/primenumber' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Student Roster</h1>
+                        <h2>CLI Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/chatbot' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>Using a given class roster consisting of 5 students, show the following
                         information to the user:
                         <br />
@@ -45,6 +46,11 @@ function Roster() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <h3>Program output:</h3>
+                    <img src={rosterOutput} alt="code output" width='80%' height='80%' />
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -58,7 +64,13 @@ function Roster() {
                         <a className='btn-sm' href="https://github.com/clairebogdan/C867_Project">GitHub Repo</a>
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
         </>
     );

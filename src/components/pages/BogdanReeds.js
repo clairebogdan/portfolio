@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/ProjectItems.css'
-import reeds from '../../assets/reeds.jpg'
+import { Link } from 'react-router-dom';
 import bogdanReedsVideo from '../../assets/project_pics/bogdanreeds/bogdanReedsVideo.mp4'
 
 function BogdanReeds() {
@@ -9,24 +9,23 @@ function BogdanReeds() {
         <>
             <body>
                 <div className='project-top'>
-                    <h1>Oboe Reed Ordering</h1>
-                    <h2>CLI Application</h2>
-                </div>
-
-                <div className='project-img'>
-                    <div className='blank'></div>
-                    <img src={reeds} alt="oboe reeds" width='85%' height='85%' />
-                </div>
-
-                <div className='project-img'>
-                    <h3>Press the play button</h3>
-                    <video width='85%' height='85%' controls>
-                        <source src={bogdanReedsVideo} type="video/mp4" />
-                    </video>
+                    <div>
+                        <Link to='/bogdanreeds-web' className="pointer">
+                            <i class="fas fa-chevron-left"></i>
+                        </Link>
+                    </div>
+                    <div>
+                        <h1>Oboe Reed Ordering</h1>
+                        <h2>CLI Application</h2>
+                    </div>
+                    <div>
+                        <Link to='/packagedelivery' className="pointer">
+                            <i class="fas fa-chevron-right"></i>
+                        </Link>
+                    </div>
                 </div>
 
                 <div className='description-box'>
-                    <h2><center>Description:</center></h2>
                     <p><span className='bold'>Overview: </span>As a freelance oboist, I make and sell oboe reeds to
                         oboists across the US. When someone wants to order oboe reeds, it is important
                         that I know some information about the person that will use the reeds. I need to
@@ -46,6 +45,12 @@ function BogdanReeds() {
                     </p>
                 </div>
 
+                <div className='project-img'>
+                    <video width='85%' height='85%' controls>
+                        <source src={bogdanReedsVideo} type="video/mp4" />
+                    </video>
+                </div>
+
                 <div className='tools-links'>
 
                     <div className='tools'>
@@ -59,7 +64,13 @@ function BogdanReeds() {
                         <a href="https://github.com/clairebogdan/bogdanreeds" className='btn-sm'>GitHub Repo</a>
                     </div>
                 </div>
-
+                <div className='portfolio-button'>
+                    <Link to='/portfolio'>
+                        <div className='portfolio-button'>
+                            Back to Portfolio
+                        </div>
+                    </Link>
+                </div>
             </body>
 
         </>
