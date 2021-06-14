@@ -9,13 +9,10 @@
 }
 
 .grid-container {
-    background-color:#d3d4ff;
     width: 100%;
     display: grid;
     grid-template-columns: 50px 50px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    padding-top: 5%;
     grid-column-gap: 20%;
     justify-content: center;
 }
@@ -47,8 +44,8 @@
   .tooltip .tooltiptext {
     font-size: 16px;
     visibility: hidden;
-    background-color: black;
-    color: #fff;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
@@ -79,7 +76,6 @@
 
 Form {
     border-radius: 5px;
-    background-color: #dfdfdf;
     padding: 120px;
     align-items: center;
     justify-content: center;

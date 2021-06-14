@@ -6,7 +6,7 @@ function Immuta() {
     return (
         <>
             <body>
-                <p>Immuta experience coming soon</p>
+                <p>Immuta experience coming soon!</p>
 
 
             </body>
