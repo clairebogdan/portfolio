@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <div className='footer'>
-                <h4 className='footerText'>Claire Bogdan 2021 <i className="far fa-copyright"></i></h4>
+                <h4 className='footerText'>Claire Bogdan {new Date().getFullYear()} <i className="far fa-copyright"></i></h4>
             </div>
         </>
     );

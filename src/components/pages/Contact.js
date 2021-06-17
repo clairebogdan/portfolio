@@ -92,6 +92,7 @@ class Contact extends Component {
                             type="text"
                             name="from_name"
                             id="name"
+                            required
                             value={this.state.name}
                             onChange={this.handleChange.bind(this, 'from_name')} />
                     </FormGroup>
@@ -103,6 +104,7 @@ class Contact extends Component {
                             type="email"
                             name="from_email"
                             id="email"
+                            required
                             value={this.state.email}
                             onChange={this.handleChange.bind(this, 'from_email')} />
                     </FormGroup>
@@ -114,6 +116,7 @@ class Contact extends Component {
                             type="textarea"
                             name="message"
                             id="message"
+                            required
                             value={this.state.message}
                             onChange={this.handleChange.bind(this, 'message')} />
                     </FormGroup>

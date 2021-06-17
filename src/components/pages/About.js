@@ -22,9 +22,9 @@ export default function About() {
             <div className='bio-container'>
                 <p>
                     I am currently a Fullstack Software Engineer at Immuta, primarily focusing on
-                    web application development. I have experience building and maintaining
+                    web application development. I have experience building, maintaining, and deploying
                     production web applications and APIs. I use the following technologies almost daily:
-                    Angular, Python, Docker, Kubernetes, PostgreSQL, GitHub, and AWS. Additionally,
+                    Angular, Python, Docker, Kubernetes, PostgreSQL, GitHub, Jira, and AWS. Additionally,
                     I have experience in three identity management protocols: OpenID Connect, SAML, and JWT.
                     <br /><br />
                     Prior to starting my software engineering career at Immuta, I completed 13 projects and
@@ -32,7 +32,7 @@ export default function About() {
                     for my bachelor's degree program at Western Governors University (WGU)
                     as well as personal projects. I enjoy the ability to be creative through coding and
                     have created several different applications (web, command-line, and stand-alone) and
-                    event dabbled in AI by creating a chatbot and a robot simulation. My certifications are in
+                    even dabbled in AI by creating a chatbot and a robot simulation. My certifications are in
                     web development, project management, and SQL.
                 </p>
                 <div className='center'>
