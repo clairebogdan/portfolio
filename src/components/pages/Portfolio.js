@@ -135,8 +135,6 @@ function Portfolio() {
                         </div>
                     </Link>
 
-                    <div className="empty"></div>
-
                     <Link to='/maryland' className="project-item">
                         <div>
                             <h2 className='name'>Maryland Spending Data</h2>

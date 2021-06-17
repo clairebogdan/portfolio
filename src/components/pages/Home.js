@@ -24,7 +24,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='home-grid background'>
+            <div className='home-grid'>
 
                 <div className='home-item'>
                     <div className='home-picture'>
