@@ -77,7 +77,7 @@ function Chatbot() {
                     </div>
                 </div>
                 <div className='portfolio-button'>
-                    <Link to='/portfolio'>
+                    <Link to='/portfolio' className='portfolio-button'>
                         <div className='portfolio-button'>
                             Back to Portfolio
                         </div>

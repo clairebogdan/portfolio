@@ -75,10 +75,8 @@ function Maryland() {
                     </div>
                 </div>
                 <div className='portfolio-button'>
-                    <Link to='/portfolio'>
-                        <div className='portfolio-button'>
-                            Back to Portfolio
-                        </div>
+                    <Link to='/portfolio' className='portfolio-button'>
+                        Back to Portfolio
                     </Link>
                 </div>
             </body>
