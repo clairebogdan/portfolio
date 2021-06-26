@@ -20,7 +20,7 @@ import ciw_cert from '../../assets/certifications/ciw-cert.png';
 import comptia from '../../assets/certifications/comptia.png';
 import itil from '../../assets/certifications/itil.png';
 import resume from '../../assets/resume.pdf';
-import immuta from '../../assets/experience_pics/immuta.jpg'
+import immuta_slim from '../../assets/experience_pics/immuta-slim.png'
 import previous_career from '../../assets/experience_pics/previous-career.png'
 import { Link } from 'react-router-dom';
 
@@ -34,7 +34,7 @@ function Portfolio() {
                 <div className="experience-grid">
                     <Link to='/immuta'>
                         <div className="experience-item">
-                            <img src={immuta} alt='Immuta' />
+                            <img src={immuta_slim} alt='Immuta' width='50%' />
                         </div>
                     </Link>
                 </div>
