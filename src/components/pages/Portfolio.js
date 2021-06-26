@@ -34,7 +34,7 @@ function Portfolio() {
                 <div className="experience-grid">
                     <Link to='/immuta'>
                         <div className="experience-item">
-                            <img src={immuta} alt='Immuta' width='50%' />
+                            <img src={immuta} alt='Immuta' />
                         </div>
                     </Link>
                 </div>

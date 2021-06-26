@@ -1,0 +1,55 @@
+.center {
+    margin: 0 auto;
+}
+
+.dot {
+    height: 1rem;
+    width: 1rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.dot-container {
+    margin-top: 10px;
+}
+
+.dot-exp {
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(150, 52, 180);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.exp-box {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.summary-items {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.technology-items {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 1rem;
+}
