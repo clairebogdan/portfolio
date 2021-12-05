@@ -21,19 +21,14 @@ export default function About() {
 
             <div className='bio-container'>
                 <p>
-                    I am currently a Fullstack Software Engineer at Immuta, primarily focusing on
+                    I am a full stack software engineer, primarily focusing on
                     web application development. I have experience building, maintaining, and deploying
                     production web applications and APIs. I use the following technologies almost daily:
-                    Angular, Python, Docker, Kubernetes, PostgreSQL, GitHub, Jira, and AWS. Additionally,
-                    I have experience in three identity management protocols: OpenID Connect, SAML, and JWT.
+                    Angular, Python, PostgreSQL, Docker, Kubernetes, GitHub, Jira, and AWS.
                     <br /><br />
-                    Prior to starting my software engineering career at Immuta, I completed 13 projects and
-                    obtained 4 certifications. These projects consist of assignments I completed
-                    for my bachelor's degree program at Western Governors University (WGU)
-                    as well as personal projects. I enjoy the ability to be creative through coding and
-                    have created several different applications (web, command-line, and stand-alone) and
-                    even dabbled in AI by creating a chatbot and a robot simulation. My certifications are in
-                    web development, project management, and SQL.
+                    As a former teacher and musician, creativity and problem solving are important to me, and these values
+                    carry over into my software engineering career. For me, coding is another avenue in which I can
+                    create something from nothing that can add value to other people's lives.
                 </p>
                 <div className='center'>
                     <Link to='/portfolio' className='about-btn'>
@@ -49,7 +44,7 @@ export default function About() {
                         I continued to play in high school, participating in state and national level performing
                         ensembles. Because of my passion for music, I decided to major in Music Education with a
                         Performance Certificate in Oboe at the University of South Carolina (UofSC). While at UofSC, I was the principal
-                        oboist of the Wind Ensemble as well as the Drum Major for the marching band (the Carolina Band).
+                        oboist of the Wind Ensemble as well as the Drum Major for the marching band.
                         Upon graduation in May 2017, I went on to be a public middle school band director for
                         two years -- one year in Parkland, Florida, and another in Summerville, South Carolina.
                     </p>
@@ -65,7 +60,7 @@ export default function About() {
                     <p>During my first year teaching, I experienced the Parkland shooting. This was the main catalyst for
                         deciding to leave teaching. I still loved teaching and performing, but I knew I needed to do
                         something else as my career. This was when I was encouraged to try coding. I went to codecademy.com
-                        and followed along with one of their Java tutorials. There was an immediate connection. The fine attention
+                        and completed one of their Java tutorials. There was an immediate connection! The fine attention
                         to detail, trial and error process, and puzzle-solving reminded me so much of what it is like to learn how to play
                         a new instrument. I felt that so many skills translated from music making to coding. I knew from then on
                         that I wanted become a software engineer. At the conclusion of my second year of teaching,
@@ -74,18 +69,20 @@ export default function About() {
             </div>
 
             <div className='bio-container-sm'>
-                <p>While going to school online, I worked as a freelance oboist and established my oboe reed
-                    making business, <a className='link' href="https://www.bogdanreeds.com">Bogdan Reeds</a>. I taught private lessons and master classes at various schools,
+                <p>While going to school online, I worked as a freelance oboist and invested more time in my oboe reed
+                    making business, <a className='link' href="https://www.bogdanreeds.com">Bogdan Reeds</a>.
+                    I taught private lessons and master classes at various schools,
                     performed in the Charleston Wind Symphony, and sold my hand-made oboe reeds.
-                    I continue to make and sell my reeds to oboists all over the country.
+                    I continue to make and sell my reeds in my spare time.
                 </p>
             </div>
 
             <div className='bio-container-sm'>
-                <p>I finished my computer science degree in September 2020, and by October, found Immuta. I currently
-                    work from home in Charleston, SC and fully embrace the remote work lifestyle. Outside of work,
-                    I enjoy going to local coffee shops, breweries, and spending time outdoors with my partner
-                    and our standard poodle, Boone.
+                <p>I finished my computer science degree in September 2020, and by October, officially started my
+                    career as a software engineer. I currently work at Immuta in Columbus, OH and also enjoy working remotely
+                    from time to time in Charleston, SC (where I grew up). Outside of work,
+                    I enjoy traveling, going to local coffee shops and breweries, playing music, and
+                    spending time outdoors with my partner and our standard poodle, Boone.
                 </p>
             </div>
 

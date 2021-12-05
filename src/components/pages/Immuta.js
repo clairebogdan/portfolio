@@ -18,13 +18,13 @@ function Immuta() {
                         <br />
                         <div>
                             <p>
-                                Fullstack Software Engineer
+                                Software Engineer I
                                 <br /><br />
                                 Platform Engineering Team
                                 <br /><br />
                                 October 2020 - current
                                 <br /><br />
-                                Remote
+                                Columbus, OH / Remote hybrid
                             </p>
                         </div>
                     </div>
@@ -110,18 +110,20 @@ function Immuta() {
                 </div>
                 <div className='exp-box'>
                     <br />
-                    * Fullstack web application development: APIs, databases, UI/UX
+                    * Full stack web application development: APIs, databases, UI/UX
+                    <br /><br />
+                    * Develop and maintain an application that serves as a customer portal. It manages the customer's SaaS
+                    deployments of the product.
                     <br /><br />
                     * Develop and maintain an in-house idenity and access management application. This application is
-                    an Open ID Connect, SAML, and JWT identity provider. We use it for Single Sign-On (SSO) capabilities
-                    with other internal/in-house applications as well as various external applications, such as Salesforce
-                    and Teamwork.
+                    an Open ID Connect, SAML, and JWT identity provider. It is used it for Single Sign-On (SSO) capabilities
+                    with both internal and external applications.
                     <br /><br />
                     * Manage SSO integrations across company applications
                     <br /><br />
-                    * Occasionally help customers directly over Zoom
+                    * Help customers and internal employees over Zoom
                     <br /><br />
-                    * Documentation writing (for both internal employees as well as customers)
+                    * Write documentation for customers and internal employees
                     <br /><br />
                     * Familiar with CI/CD pipelines
                     <br /><br />
