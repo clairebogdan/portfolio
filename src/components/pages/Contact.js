@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../App.css';
 import '../styles/Contact.css';
 import '../styles/Button.css';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+// import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import emailjs from 'emailjs-com';
 import Clipboard from 'clipboard';
 
@@ -64,8 +64,10 @@ class Contact extends Component {
     render() {
         return (
             <>
+            <div className='contact-title'>
+            Please copy my email address by clicking the mail icon, or message me on LinkedIn
+                </div>
                 <div className='grid-container'>
-
                     <div className='grid-item'>
                         <div className='tooltip'>
                             <div className="copy" data-clipboard-text='bogdanclaire@gmail.com'>
@@ -85,7 +87,7 @@ class Contact extends Component {
                     </div>
                 </div>
 
-                <Form onSubmit={this.handleSubmit.bind(this)}>
+                {/* <Form onSubmit={this.handleSubmit.bind(this)}>
                     <FormGroup controlId='formBasicName'>
                         <Label for="from_name">your name</Label><br />
                         <Input
@@ -124,7 +126,7 @@ class Contact extends Component {
 
                     <Button variant='primary' type='submit'>send</Button>
 
-                </Form>
+                </Form> */}
             </>
         )
     }
