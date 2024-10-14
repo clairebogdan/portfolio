@@ -172,7 +172,7 @@ function Portfolio() {
                 </div>
 
                 <div className="button-container">
-                    <a className='btn' href={resume}>download resume</a>
+                    <a className='btn' href={resume}>resume</a>
                 </div>
             </div>
         </>

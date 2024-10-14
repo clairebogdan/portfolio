@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import resume from '../../assets/resume.pdf';
 import headshot2 from '../../assets/about_pics/headshot2.jpeg'
 import oboe2 from '../../assets/about_pics/oboe2.jpg'
-import plaques from '../../assets/about_pics/plaques.jpg'
 
 export default function About() {
     return (
@@ -21,68 +20,43 @@ export default function About() {
 
             <div className='bio-container'>
                 <p>
-                    I am a full stack software engineer, primarily focusing on
-                    web application development. I have experience building, maintaining, and deploying
-                    production web applications and APIs. I use the following technologies almost daily:
-                    Typescript, Angular, PostgreSQL, Docker, Kubernetes, GitHub, Databdog, and Jira.
+                Welcome! I’m Claire Bogdan, a passionate full stack software engineer with four years of experience in developing dynamic web applications. Currently, I work at Immuta, where I focus on enhancing user experiences and driving technical initiatives.
                     <br /><br />
-                    As a former teacher and musician, creativity and problem solving are important to me, and these values
-                    carry over into my software engineering career. For me, coding is another avenue in which I can
-                    create something from nothing that can add value to other people's lives.
+                    In my role, I lead efforts to improve onboarding processes and collaborate closely with cross-functional teams. I enjoy mentoring junior engineers and contributing to technical documentation that supports both internal teams and customers. My journey in software engineering has equipped me with a strong foundation in various programming languages and frameworks, allowing me to adapt and excel in diverse projects.
+                    I am skilled in languages such as TypeScript, SQL, and Python, and I have experience with frameworks like Angular and PostgreSQL. My expertise extends to areas like RESTful APIs, Docker, and Agile methodologies, enabling me to build efficient and scalable solutions.
                 </p>
             </div>
 
             <div className='bio'>
                 <div className='bio-text'>
                     <h2>My career change story...</h2><br />
-                    <p>I started playing the oboe in the 6th grade. I loved playing the oboe and being in band.
-                        I continued to play in high school, participating in state and national level performing
-                        ensembles. Because of my passion for music, I decided to major in Music Education with a
-                        Performance Certificate in Oboe at the University of South Carolina (UofSC). While at UofSC, I was the principal
-                        oboist of the Wind Ensemble as well as the Drum Major for the marching band.
-                        Upon graduation in May 2017, I went on to be a public middle school band director for
-                        two years -- one year in Parkland, Florida, and another in Summerville, South Carolina.
+                    <p>Before transitioning to tech, I spent most of my life immersed in the music education realm.
+                    I started playing the oboe in sixth grade, developing a passion for music that led me to major in Music Education at the University of South Carolina. As principal oboist of the Wind Ensemble and Drum Major of the marching band, I honed my leadership and teamwork skills.
+After graduating in 2017, I spent my first year teaching as a middle school band director in Parkland, Florida. However, after the tragic Parkland shooting, I felt compelled to shift my career. I taught for another year, but knew I needed to make a change. 
+My friends and family encouraged me to try coding, even though I had no prior experience. I discovered a strong connection between music and software engineering — both require attention to detail, creativity, and problem-solving.
+I completed a Bachelor’s in Computer Science at Western Governors University and began my software engineering career in October 2020 at Immuta. I was promoted to Software Engineer II in March 2023!
                     </p>
+                    <br/>
                 </div>
                 <div className='bio-pic'>
                     <img src={oboe2} alt="SC awards" width="100%" height="100%" />
                 </div>
 
-                <div className='bio-pic'>
-                    <img src={plaques} alt="me with oboe" width="100%" height="100%" />
-                </div>
-                <div className='bio-text'>
-                    <p>During my first year teaching, I experienced the Parkland shooting. This was the main catalyst for
-                        deciding to leave teaching. I still loved teaching and performing, but I knew I needed to do
-                        something else as my career. This was when I was encouraged to try coding. I went to codecademy.com
-                        and completed one of their Java tutorials. There was an immediate connection! The fine attention
-                        to detail, trial and error process, and puzzle-solving reminded me so much of what it is like to learn how to play
-                        a new instrument. I felt that so many skills translated from music making to coding. I knew from then on
-                        that I wanted become a software engineer. At the conclusion of my second year of teaching,
-                        I started to pursue a Bachelor's of Computer Science at Western Governors University.</p>
-                </div>
             </div>
 
             <div className='bio-container-sm'>
-                <p>While going to school online, I worked as a freelance oboist and invested more time in my oboe reed
-                    making business, <a className='link' href="https://www.bogdanreeds.com">Bogdan Reeds</a>.
-                    I taught private lessons and master classes at various schools,
-                    performed in the Charleston Wind Symphony, and sold my hand-made oboe reeds.
-                    I continue to make and sell my reeds in my spare time.
+                <p>
                 </p>
             </div>
 
             <div className='bio-container-sm'>
-                <p>I finished my computer science degree in September 2020, and by October, officially started my
-                    career as a software engineer. I currently work at Immuta in Columbus, OH and also enjoy working remotely
-                    from time to time in Charleston, SC (where I grew up). Outside of work,
-                    I enjoy traveling, going to local coffee shops and breweries, playing music, and
-                    spending time outdoors with my partner and our standard poodle, Boone.
+                <p>
+                    Outside of work, I remain active in music through my freelance oboe performances and reed-making business, Bogdan Reeds. I love traveling, exploring local coffee shops, and spending time outdoors with my fiance and our standard poodle, Boone.
                 </p>
             </div>
 
             <div className='button-bar'>
-                <a className='about-btn' href={resume}>download resume</a>
+                <a className='about-btn' href={resume}>resume</a>
 
                 <Link to='/portfolio' className='about-btn'>
                     portfolio <i class="fas fa-chevron-right"></i>

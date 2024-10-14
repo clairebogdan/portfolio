@@ -2,8 +2,9 @@ import React from 'react';
 import '../../App.css';
 import '../styles/Home.css'
 import { Link } from 'react-router-dom';
-// import mobile_headshot from '../../assets/mobile_headshot.jpg'
 import face from '../../assets/about_pics/face.jpg'
+import resume from '../../assets/resume.pdf';
+
 
 export default function Home() {
     return (
@@ -21,6 +22,9 @@ export default function Home() {
                     <Link to='/about' className='learn-more-btn-mobile'>
                         learn more <i class="fas fa-chevron-right"></i>
                     </Link>
+                    <div className='space'>
+                            <a className='learn-more-btn' href={resume}>resume</a>
+                        </div>
                 </div>
             </div>
 
@@ -42,6 +46,11 @@ export default function Home() {
                         <Link to='/about' className='learn-more-btn'>
                             learn more <i class="fas fa-chevron-right"></i>
                         </Link>
+                        <br/>
+                        <div className='space'>
+                            <a className='learn-more-btn' href={resume}>resume</a>
+                        </div>
+                        
                     </div>
                 </div>
 

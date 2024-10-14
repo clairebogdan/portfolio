@@ -24,6 +24,10 @@ body {
   margin-top: 50%;
 }
 
+.space {
+  margin-top: 30%;
+}
+
 .home-picture {
   padding: 5%;
   margin: 0 auto;
@@ -57,7 +61,7 @@ body {
   outline: none;
   border: none;
   font-size: 18px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   background-color: #A5C9FF;
   text-decoration: none;
@@ -103,6 +107,10 @@ body {
 
   .home-grid {
     display: none;
+  }
+
+  .space {
+    margin-top: 30%;
   }
 
 }
