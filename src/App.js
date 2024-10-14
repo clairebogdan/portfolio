@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home'
@@ -23,6 +22,7 @@ import BogdanReedsWeb from './components/pages/BogdanReedsWeb';
 import Immuta from './components/pages/Immuta';
 import PreviousCareer from './components/pages/PreviousCareer';
 import ScrollToTop from './ScrollToTop';
+import FreelanceOboist from './components/pages/FreelanceOboist';
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/about' exact component={About} />
           <Route path='/portfolio' exact component={Portfolio} />
+          <Route path='/freelance-oboe' exact component={FreelanceOboist} />
           <Route path='/contact' exact component={Contact} />
           <Route path='/perfectfit' exact component={PerfectFit} />
           <Route path='/instrumentcalc' exact component={InstrumentCalc} />
@@ -53,7 +54,6 @@ function App() {
           <Route path='/previous-career' exact component={PreviousCareer} />
         </Switch>
 
-        <Footer />
 
       </ScrollToTop>
     </Router>

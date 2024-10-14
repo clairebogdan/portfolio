@@ -10,18 +10,13 @@ function InventoryManager() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/appointmentmanager' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>Inventory Manager</h1>
                         <h2>GUI Application</h2>
-                    </div>
-                    <div>
-                        <Link to='/primenumber' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

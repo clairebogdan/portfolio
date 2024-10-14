@@ -24,17 +24,12 @@ export default function About() {
                     I am a full stack software engineer, primarily focusing on
                     web application development. I have experience building, maintaining, and deploying
                     production web applications and APIs. I use the following technologies almost daily:
-                    Angular, Python, PostgreSQL, Docker, Kubernetes, GitHub, Jira, and AWS.
+                    Typescript, Angular, PostgreSQL, Docker, Kubernetes, GitHub, Databdog, and Jira.
                     <br /><br />
                     As a former teacher and musician, creativity and problem solving are important to me, and these values
                     carry over into my software engineering career. For me, coding is another avenue in which I can
                     create something from nothing that can add value to other people's lives.
                 </p>
-                <div className='center'>
-                    <Link to='/portfolio' className='about-btn'>
-                        See Portfolio <i class="fas fa-chevron-right"></i>
-                    </Link>
-                </div>
             </div>
 
             <div className='bio'>
@@ -87,14 +82,14 @@ export default function About() {
             </div>
 
             <div className='button-bar'>
-                <a className='about-btn' href={resume}>Resume</a>
+                <a className='about-btn' href={resume}>download resume</a>
 
                 <Link to='/portfolio' className='about-btn'>
-                    See Portfolio <i class="fas fa-chevron-right"></i>
+                    portfolio <i class="fas fa-chevron-right"></i>
                 </Link>
 
                 <Link to='/contact' className='about-btn'>
-                    Contact Me <i class="fas fa-chevron-right"></i>
+                    contact <i class="fas fa-chevron-right"></i>
                 </Link>
             </div>
         </>

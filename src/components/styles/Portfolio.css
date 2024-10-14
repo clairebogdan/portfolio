@@ -95,7 +95,8 @@
 }
 
 .project-title {
-    background-color:#d3d4ff;
+    color: black;
+    background-color:#A5C9FF;
     justify-content: center;
     align-items: center;
     text-align: center;

@@ -13,18 +13,13 @@ function Hurricane() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/chatbot' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>Hurricane Cleanup Robot Simulation</h1>
                         <h2>CoppeliaSim Simulation</h2>
-                    </div>
-                    <div>
-                        <Link to='/website-project' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

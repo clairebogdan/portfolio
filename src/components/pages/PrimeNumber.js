@@ -10,18 +10,13 @@ function PrimeNumber() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/inventorymanager' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>Prime Number Generator</h1>
                         <h2>CLI Application</h2>
-                    </div>
-                    <div>
-                        <Link to='/roster' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

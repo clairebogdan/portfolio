@@ -87,19 +87,19 @@ class Contact extends Component {
 
                 <Form onSubmit={this.handleSubmit.bind(this)}>
                     <FormGroup controlId='formBasicName'>
-                        <Label for="from_name">Your name</Label><br />
+                        <Label for="from_name">your name</Label><br />
                         <Input
                             type="text"
                             name="from_name"
                             id="name"
                             required
                             value={this.state.name}
-                            onChange={this.handleChange.bind(this, 'from_name')} />
+                        onChange={this.handleChange.bind(this, 'from_name')} />
                     </FormGroup>
                     <br />
 
                     <FormGroup controlId='formBasicEmail'>
-                        <Label for="from_email">Your email</Label><br />
+                        <Label for="from_email">your email</Label><br />
                         <Input
                             type="email"
                             name="from_email"
@@ -111,7 +111,7 @@ class Contact extends Component {
                     <br />
 
                     <FormGroup controlId='formBasicMessage'>
-                        <Label for="message">Message</Label><br />
+                        <Label for="message">message</Label><br />
                         <Input
                             type="textarea"
                             name="message"
@@ -122,7 +122,7 @@ class Contact extends Component {
                     </FormGroup>
                     <br />
 
-                    <Button variant='primary' type='submit'>Send</Button>
+                    <Button variant='primary' type='submit'>send</Button>
 
                 </Form>
             </>

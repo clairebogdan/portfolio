@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom';
+
 import '../styles/Immuta.css';
 import immuta_slim from '../../assets/experience_pics/immuta-slim.png'
 
@@ -9,6 +11,13 @@ function Immuta() {
     return (
         <>
             <body>
+            <div className='experience-top'>
+                <div>
+                    <Link to='/portfolio' className="pointer">
+                        <i class="fas fa-chevron-left"></i>
+                    </Link>
+                </div>
+            </div>
                 <div className='center'>
                     <img src={immuta_slim} alt='Immuta' width='50%' />
                 </div>
@@ -18,13 +27,13 @@ function Immuta() {
                         <br />
                         <div>
                             <p>
-                                Software Engineer I
-                                <br /><br />
-                                Platform Engineering Team
+                                Software Engineer II
                                 <br /><br />
                                 October 2020 - current
                                 <br /><br />
-                                Columbus, OH / Remote hybrid
+                                Summerville, SC (Remote)
+                                <br/><br/>
+                                Promoted from level I to II in March 2023
                             </p>
                         </div>
                     </div>
@@ -35,8 +44,8 @@ function Immuta() {
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
-                            <span class="dot"></span>
-                            Python
+                            <span class="dot-exp"></span>
+                            Typescript
                         </div>
                         <div className='dot-container'>
                             <span class="dot-exp"></span>
@@ -59,13 +68,21 @@ function Immuta() {
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
-                            <span class="dot"></span>
+                            <span class="dot-exp"></span>
                             HTML, CSS
                         </div>
                         <div className='dot-container'>
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
+                            <span class="dot-exp"></span>
                             <span class="dot"></span>
+                            <span class="dot"></span>
+                            Python
+                        </div>
+                        <div className='dot-container'>
+                            <span class="dot-exp"></span>
+                            <span class="dot-exp"></span>
+                            <span class="dot-exp"></span>
                             <span class="dot"></span>
                             <span class="dot"></span>
                             Docker
@@ -89,16 +106,16 @@ function Immuta() {
                         <div className='dot-container'>
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
+                            <span class="dot-exp"></span>
                             <span class="dot"></span>
                             <span class="dot"></span>
-                            <span class="dot"></span>
-                            ArgoCD
+                            Datadog
                         </div>
                         <div className='dot-container'>
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
                             <span class="dot-exp"></span>
-                            <span class="dot"></span>
+                            <span class="dot-exp"></span>
                             <span class="dot"></span>
                             Jira
                         </div>
@@ -110,24 +127,30 @@ function Immuta() {
                 </div>
                 <div className='exp-box'>
                     <br />
-                    * Full stack web application development: APIs, databases, UI/UX
+                    * Full-stack web application development
                     <br /><br />
-                    * Develop and maintain an application that serves as a customer portal. It manages the customer's SaaS
-                    deployments of the product.
+                    * PROJECT: Enhanced Onboarding. The goal of this project was to create a new data onboarding paradigm for our customers. It included significant 
+                    improvements to our metadata ingestion, internal organization of assets, and a simplified user experience. I served as an administrative lead for this project where I worked closely with Product Managers and the UX/design team. Was responsible
+                    for forecasting, writing tickets, and keeping the project on track. Updated stakeholders on a weekly basis with our progress. I also contributed to this project, writing new
+                    APIs, database migrations, core business logic, and the frontend.
                     <br /><br />
-                    * Develop and maintain an in-house idenity and access management application. This application is
-                    an Open ID Connect, SAML, and JWT identity provider. It is used it for Single Sign-On (SSO) capabilities
+                    * PROJECT: Audit Service. This was a microservice project that was responsible for logging user activity while using our main product. Used technologies
+                    such as GraphQL and Elasticsearch. 
+                    <br /><br />
+                    * PROJECT: Internal Identity Manager. Developed and maintained an in-house idenity and access management application. This application was
+                    an Open ID Connect, SAML, and JWT identity provider. It was used it for Single Sign-On (SSO) capabilities
                     with both internal and external applications.
                     <br /><br />
-                    * Manage SSO integrations across company applications
+                    * Produced demos of new features for internal use.
                     <br /><br />
-                    * Help customers and internal employees over Zoom
+                    * Served on an on-call rotation where I monitored Datadog and helped triage customer issues.
                     <br /><br />
-                    * Write documentation for customers and internal employees
+                    * Wrote documentation for customers and internal employees.
                     <br /><br />
-                    * Familiar with CI/CD pipelines
+                    * Familiar with CI/CD pipelines (Jenkins, GitHub Actions, ArgoCD).
                     <br /><br />
-                    * Very comfortable with working fully remote
+                    * Fully remote with occasional onsites.
+                    <br /><br />
                 </div>
 
             </body>

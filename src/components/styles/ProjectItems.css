@@ -33,7 +33,7 @@ body {
     font-size: 16px;
     color: #fff;
     cursor: pointer;
-    background-color: #8185fd;
+    background-color: #A5C9FF;
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ body {
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: rgb(224, 224, 224);
-    color: #111344;
+    color: #A5C9FF;
     transition: 250ms;
     border: black;
 }
@@ -91,7 +91,7 @@ body {
     text-align: center;
     font-size: 16px;
     text-decoration: none;
-    color: #8185fd;
+    color: #A5C9FF;
 }
 
 .portfolio-button:hover {
@@ -100,7 +100,7 @@ body {
 }
 
 .portfolio-button:visited {
-    color: #8185fd;
+    color: #A5C9FF;
     text-decoration: none;
 }
 
@@ -116,7 +116,18 @@ body {
     display: grid;
     text-align: center;
     padding: 5%;
-    background-color:#d3d4ff;
+    background-color:#A5C9FF;
+    width: 100%;
+    grid-template-columns: 10% 80% 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-top {
+    display: grid;
+    text-align: center;
+    padding: 2%;
+    background-color:#1f1f1f;
     width: 100%;
     grid-template-columns: 10% 80% 10%;
     justify-content: center;

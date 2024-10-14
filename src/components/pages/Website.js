@@ -9,18 +9,13 @@ function Website() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/hurricane' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>clairebogdan.com</h1>
                         <h2>(This website)</h2>
-                    </div>
-                    <div>
-                        <Link to='/maryland' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

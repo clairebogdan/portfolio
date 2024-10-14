@@ -5,6 +5,9 @@ import '../styles/Button.css';
 import website from '../../assets/project_pics/website/website-img.jpg'
 import map from '../../assets/project_pics/maryland/map.jpg'
 import saxophone from '../../assets/saxophone.jpg';
+import immuta_block from '../../assets/experience_pics/immuta_block.png';
+import oboe from '../../assets/experience_pics/oboe.png';
+import director from '../../assets/experience_pics/director.jpg';
 import reeds from '../../assets/reeds.jpg';
 import bogdanreeds from '../../assets/project_pics/bogdanreeds/bogdanreeds.jpg';
 import numbers from '../../assets/numbers.jpg';
@@ -20,8 +23,6 @@ import ciw_cert from '../../assets/certifications/ciw-cert.png';
 import comptia from '../../assets/certifications/comptia.png';
 import itil from '../../assets/certifications/itil.png';
 import resume from '../../assets/resume.pdf';
-import immuta_slim from '../../assets/experience_pics/immuta-slim.png'
-import previous_career from '../../assets/experience_pics/previous-career.png'
 import { Link } from 'react-router-dom';
 
 function Portfolio() {
@@ -29,25 +30,34 @@ function Portfolio() {
     return (
         <>
             <div className="portfolio-background">
-                <div className='project-title'>EXPERIENCE</div>
+                <div className='project-title'>work experience</div>
 
-                <div className="experience-grid">
-                    <Link to='/immuta'>
-                        <div className="experience-item">
-                            <img src={immuta_slim} alt='Immuta' width='50%' />
+                <div className="project-grid">
+
+                    <Link to='/immuta' className="project-item">
+                        <div>
+                            <h2 className='name'>Immuta - Software Engineer (Current)</h2>
+                            <img src={immuta_block} alt='immuta' width='100%' height='100%' />
+                        </div>
+                    </Link>
+
+                    <Link to='/previous-career' className="project-item">
+                        <div>
+                            <h2 className='name'>Middle School Band Director</h2>
+                            <img src={director} alt='director' width='100%' height='100%' />
+                        </div>
+                    </Link>
+
+                    <Link to='/freelance-oboe' className="project-item">
+                        <div>
+                            <h2 className='name'>Freelance Oboist</h2>
+                            <img src={oboe} alt='oboe' width='100%' height='100%' />
                         </div>
                     </Link>
                 </div>
 
-                <div className="experience-grid">
-                    <Link to='/previous-career'>
-                        <div className="experience-item">
-                            <img src={previous_career} alt='Previous career' width='50%' />
-                        </div>
-                    </Link>
-                </div>
 
-                <div className='project-title'>PROJECTS</div>
+                <div className='project-title'>personal projects</div>
 
                 <div className="project-grid">
 
@@ -144,7 +154,7 @@ function Portfolio() {
                 </div>
 
                 <div>
-                    <div className='project-title'>CERTIFICATIONS</div>
+                    <div className='project-title'>certificates</div>
                     <div className="certifications-grid">
                         <div className='cert'>
                             <img src={oracle} alt='Oracle certification' width='60%' height='60%' />
@@ -162,7 +172,7 @@ function Portfolio() {
                 </div>
 
                 <div className="button-container">
-                    <a className='btn' href={resume}>Resume</a>
+                    <a className='btn' href={resume}>download resume</a>
                 </div>
             </div>
         </>

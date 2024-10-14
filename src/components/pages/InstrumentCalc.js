@@ -10,18 +10,13 @@ function InstrumentCalc() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/perfectfit' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>Beginner Band Instrumentation Calculator</h1>
                         <h2>Web Application</h2>
-                    </div>
-                    <div>
-                        <Link to='/bogdanreeds-web' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

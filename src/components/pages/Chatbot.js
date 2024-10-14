@@ -10,18 +10,13 @@ function Chatbot() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/roster' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>Career Advisor Chatbot</h1>
                         <h2>Pandorabots Chatbot</h2>
-                    </div>
-                    <div>
-                        <Link to='/hurricane' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

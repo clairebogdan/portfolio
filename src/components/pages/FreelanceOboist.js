@@ -4,7 +4,7 @@ import '../styles/Immuta.css';
 import { Link } from 'react-router-dom';
 
 
-function PreviousCareer() {
+function FreelanceOboist() {
 
     return (
         <>
@@ -18,41 +18,45 @@ function PreviousCareer() {
             </div>
                 <div id='career-1'>
                     <div className='grid-title'>
-                        Westglades Middle School
+                        Private Oboe Lesson Teacher
                     </div>
                     <div className='center'>
                         <div>
                             <br />
                             <h3>
-                                Band Director &nbsp; August 2017 - June 2018 &nbsp; Parkland, FL
+                                August 2016 - October 2019
                             </h3>
                         </div>
                     </div>
                 </div>
 
+                <div className='exp-box'>
+                        <br />
+                        * Started my own private lesson oboe studio where I taught middle and high school oboists.
+                        <br /><br />
+                        * Led master classes at local middle and high schools.
+                        <br /><br />
+                    </div>
+
                 <div id='career-2'>
                     <div className='grid-title'>
-                        DuBose Middle School
+                        Bogdan Reeds
                     </div>
                     <div className='center'>
                         <div>
                             <br />
                             <h3>
-                                Band Director &nbsp; August 2018 - June 2019 &nbsp; Summerville, SC
+                                Self-employed oboe reed business &nbsp; May 2017 - current &nbsp;
                             </h3>
                         </div>
                     </div>
 
                     <div className='exp-box'>
                         <br />
-                        * Both band programs consisted of 220+ students from grades 6-8.
+                        * After many years of learning to make my own oboe reeds, I started this business where I sell the reeds that I make to other oboists.
+                        I built my website, <a className='link' href='https://www.bogdanreeds.com/'>Bogdan Reeds</a>, where customers can learn about my reeds and contact me to order.
                         <br /><br />
-                        * Led the band booster parent organization, where we organized fundraisers, field trips, social events, and concerts.
-                        <br /><br />
-                        * Fostered a culture of excellence by planning additional before/after school rehearsals and running an after-school private lesson program.
-                        <br /><br />
-                        * During summer break, I would continue to teach at the <a className='link' href='https://camp.musicforall.org/drum-major-institute-a-never-ending-opportunity-to-learn/'>Drum Major Institute at the Music For All Summer Symposium</a>, as well as 
-                        other summer music camps.
+                        * I currently make oboe reeds as my side business!
                         <br /><br />
                     </div>
                 </div>
@@ -63,7 +67,7 @@ function PreviousCareer() {
         </>
     );
 }
-export default PreviousCareer;
+export default FreelanceOboist;
 
 
 

@@ -10,7 +10,7 @@ function PackageDelivery() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/bogdanreeds' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
@@ -18,11 +18,6 @@ function PackageDelivery() {
                         <h1>Package Delivery</h1>
                         <h2>Based on the "Traveling Salesman Problem"</h2>
                         <h2>CLI Application</h2>
-                    </div>
-                    <div>
-                        <Link to='/appointmentmanager' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

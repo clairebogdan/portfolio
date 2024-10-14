@@ -14,12 +14,12 @@ export default function Home() {
 
             <div className='mobile-container'>
                 <div className='mobile-text'>
-                    <h2><i class="fas fa-laptop-code"></i> Software Engineer<br /><br />
-                        <i class="fas fa-apple-alt"></i> Former Teacher<br /><br />
-                        <i class="fas fa-music"></i> Musician<br /><br />
+                    <h2><i class="fas fa-laptop-code"></i> software engineer<br /><br />
+                        <i class="fas fa-apple-alt"></i> former teacher<br /><br />
+                        <i class="fas fa-music"></i> musician<br /><br />
                     </h2>
                     <Link to='/about' className='learn-more-btn-mobile'>
-                        Learn more <i class="fas fa-chevron-right"></i>
+                        learn more <i class="fas fa-chevron-right"></i>
                     </Link>
                 </div>
             </div>
@@ -34,13 +34,13 @@ export default function Home() {
 
                 <div className='home-item'>
                     <div className='home-info'>
-                        <h2><i class="fas fa-laptop-code"></i> Software Engineer<br /><br />
-                            <i class="fas fa-apple-alt"></i> Former Teacher<br /><br />
-                            <i class="fas fa-music"></i> Musician<br /><br />
+                        <h2><i class="fas fa-laptop-code"></i> software engineer<br /><br />
+                            <i class="fas fa-apple-alt"></i> former teacher<br /><br />
+                            <i class="fas fa-music"></i> musician<br /><br />
                         </h2>
                         <br />
                         <Link to='/about' className='learn-more-btn'>
-                            Learn more <i class="fas fa-chevron-right"></i>
+                            learn more <i class="fas fa-chevron-right"></i>
                         </Link>
                     </div>
                 </div>

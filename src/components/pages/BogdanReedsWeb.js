@@ -10,18 +10,13 @@ function BogdanReedsWeb() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/instrumentcalc' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>bogdanreeds.com</h1>
                         <h2>Website</h2>
-                    </div>
-                    <div>
-                        <Link to='/bogdanreeds' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 

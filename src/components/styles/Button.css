@@ -1,5 +1,5 @@
 :root {
-    --primary: #111344;
+    --primary: #A5C9FF;
 }
 
 .btn {
@@ -8,9 +8,9 @@
     outline: none;
     border: none;
     font-size: 24px;
-    color: #fff;
+    color: black;
     cursor: pointer;
-    background-color: #8185fd;
+    background-color: #A5C9FF;
     text-decoration: none;
 }
 
@@ -18,7 +18,7 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: rgb(224, 224, 224);
-    color: #111344;
+    color: #A5C9FF;
     transition: 250ms;
     border: black;
 }

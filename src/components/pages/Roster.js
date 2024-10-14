@@ -11,18 +11,13 @@ function Roster() {
             <body>
                 <div className='project-top'>
                     <div>
-                        <Link to='/primenumber' className="pointer">
+                        <Link to='/portfolio' className="pointer">
                             <i class="fas fa-chevron-left"></i>
                         </Link>
                     </div>
                     <div>
                         <h1>Student Roster</h1>
                         <h2>CLI Application</h2>
-                    </div>
-                    <div>
-                        <Link to='/chatbot' className="pointer">
-                            <i class="fas fa-chevron-right"></i>
-                        </Link>
                     </div>
                 </div>
 
